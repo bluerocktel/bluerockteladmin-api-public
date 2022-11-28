@@ -1,0 +1,24 @@
+_id: req_8a655f7200ab4d88a46b34192f01ce91
+type: Request
+parentId: fld_94918a18d3fb422c80133630ad604346
+modified: 1669649334125
+created: 1669649334125
+url: "{{ _.base_url }}v1/ticketing/dailyPointsSummary"
+name: v1/ticketing/dailyPointsSummary
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

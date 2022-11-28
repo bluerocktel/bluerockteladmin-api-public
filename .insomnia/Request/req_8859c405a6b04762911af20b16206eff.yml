@@ -1,0 +1,29 @@
+_id: req_8859c405a6b04762911af20b16206eff
+type: Request
+parentId: fld_529fd1404055447d869b34a4583391bc
+modified: 1669649333679
+created: 1669649333679
+url: "{{baseUrl}}/v1/customerConcerns"
+name: v1/customerConcerns
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "customer_id": "<string>",
+      "description": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576778
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

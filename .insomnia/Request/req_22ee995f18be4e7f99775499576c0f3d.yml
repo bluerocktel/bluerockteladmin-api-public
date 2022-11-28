@@ -1,0 +1,40 @@
+_id: req_22ee995f18be4e7f99775499576c0f3d
+type: Request
+parentId: fld_25a9e85df7a84664bded53ddcdc341e4
+modified: 1669649333658
+created: 1669649333658
+url: "{{baseUrl}}/v1/mailFilters"
+name: v1/mailFilters
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "name": "<string>",
+      "combination": "<string>",
+      "order": "<number>",
+      "redirectionType": "<string>",
+      "redirectionId": "<number>",
+      "priorityId": "<number>",
+      "categoryId": "<number>",
+      "subCategoryId": "<number>",
+      "storeAttachments": "<number>",
+      "path": "<string>",
+      "autoClose": "<boolean>",
+      "dontCreateTicket": "<boolean>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_18bbc70a24ed480e92cf92b2817cb78a
+authentication: {}
+metaSortKey: -1646672576551
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_9fe0356a3ab64bc2ac4018ffd8fe61a4
+type: Request
+parentId: fld_d72763fe9e00491898e423c4a05c8a32
+modified: 1669649334162
+created: 1669649334162
+url: "{{ _.base_url }}v1/ticketing/sharedSupportContracts"
+name: v1/ticketing/sharedSupportContracts
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"contract_id": 2,
+    	"customer_id": 4
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

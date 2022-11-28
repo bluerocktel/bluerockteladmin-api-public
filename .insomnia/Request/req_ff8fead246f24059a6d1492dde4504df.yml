@@ -1,0 +1,34 @@
+_id: req_ff8fead246f24059a6d1492dde4504df
+type: Request
+parentId: fld_2ceef0b64ae6437bb0a60844b712ef78
+modified: 1669649333547
+created: 1669649333547
+url: "{{baseUrl}}/v1/infrastructures/:infrastructure"
+name: v1/infrastructures/{infrastructure}
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "name": "<string>",
+      "code": "<string>",
+      "customer_id": "<number>",
+      "comment": "<string>",
+      "supplier_id": {},
+      "supplier_identification": {},
+      "deleted_at": {}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

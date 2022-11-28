@@ -1,0 +1,46 @@
+_id: req_5f80883b6bc444619bb25a2b444843d7
+type: Request
+parentId: fld_908618cbd2904405b4a94a571c7efe96
+modified: 1669649334195
+created: 1669649334195
+url: "{{ base_url }}v1/ticketing/attachments"
+name: v1/ticketing/attachments
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_e739753d5cc9486f9eb5d81efcbbbd8c
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/tgeorgel/Downloads/sample.pdf
+    - id: pair_9ef379f5243a4582946a470338d3f47c
+      name: attachable_id
+      value: "13092"
+      description: ""
+    - id: pair_ed0ebaa0ecc74b7193cd288003fdade1
+      name: attachable_type
+      value: App\Ticket
+      description: ""
+parameters: []
+headers:
+  - name: Authorization
+    disabled: true
+    value: string
+    id: pair_e6c2d0fa5a3546e3a1e955c7e701aabc
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_093288fb573d4d5e9beeb37b599de078
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: 150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

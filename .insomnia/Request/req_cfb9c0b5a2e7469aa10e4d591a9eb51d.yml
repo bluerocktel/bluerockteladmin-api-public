@@ -1,0 +1,36 @@
+_id: req_cfb9c0b5a2e7469aa10e4d591a9eb51d
+type: Request
+parentId: fld_e37508fb98d5496fbc6d332233fc7f40
+modified: 1669649334699
+created: 1669649334699
+url: "{{ _.base_url }}v1/training/programs/2"
+name: v1/training/programs/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"buyable": 0,
+    	"courses": [35]
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

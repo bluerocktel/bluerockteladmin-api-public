@@ -1,0 +1,33 @@
+_id: req_7a865f26257244918fd1880356381071
+type: Request
+parentId: fld_f2f6095078284a28867286b24a2850d6
+modified: 1669649334106
+created: 1669649334106
+url: "{{ _.base_url }}v1/ticketing/supportSheets"
+name: v1/ticketing/supportSheets
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customer_id": 94,
+    	"title": "Procèdure XX"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

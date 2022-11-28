@@ -1,0 +1,35 @@
+_id: req_b2e17fc3e1a8435e887a803c7a7a09f1
+type: Request
+parentId: fld_8eb6aa586cac4ead806f296fe0bd4517
+modified: 1669649333843
+created: 1669649333843
+url: "{{ _.base_url }}/v1/pbx3cx-call-logs"
+name: v1/pbx3cx-call-logs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"host_name": "encomconseil.3cx.fr",
+    	"start": "2022-11-04 00:00:00",
+    	"end": "2022-11-04 23:59:59",
+    	"recipients": "cyrille.georgel@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6cc1c9b54a1741fb8684d02937670ced
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ _.token }}"
+metaSortKey: -1667664504720
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

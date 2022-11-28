@@ -1,0 +1,30 @@
+_id: req_862e36ac3d7245cfa0d8534a00ebdca5
+type: Request
+parentId: fld_9433e04740b7483a9561e89f3a2e79c1
+modified: 1669649333753
+created: 1669649333753
+url: "{{baseUrl}}/v1/sftpAccounts/:sftpAccount"
+name: v1/sftpAccounts/{sftpAccount}
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "fileable_type": "<string>",
+      "fileable_id": "<number>",
+      "comment": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576797
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

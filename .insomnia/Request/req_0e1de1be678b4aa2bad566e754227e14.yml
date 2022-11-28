@@ -1,0 +1,35 @@
+_id: req_0e1de1be678b4aa2bad566e754227e14
+type: Request
+parentId: fld_fd5f71d12af141b788fa35cea79853c8
+modified: 1669649334051
+created: 1669649334051
+url: "{{ _.base_url }}v1/tickets/8500/associates"
+name: v1/tickets/{ticket}/associates
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "associated": [
+    		925
+    	],
+      "unassociated": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5d80a4c014c43a3a9c65106027db1f6
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576985.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

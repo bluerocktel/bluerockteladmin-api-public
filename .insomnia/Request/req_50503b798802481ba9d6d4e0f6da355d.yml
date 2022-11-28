@@ -1,0 +1,28 @@
+_id: req_50503b798802481ba9d6d4e0f6da355d
+type: Request
+parentId: fld_03ec0d3df1dc4b4c92e54ae55da750c2
+modified: 1669649334912
+created: 1669649334912
+url: "{{ _.base_url }}v1/go-cardless-mandates/1"
+name: v1/go-cardless-mandates/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_74f85b72526840b196e2563cb977fbb4
+type: Request
+parentId: fld_f8ce363d8bb84ee290cbeae0e71b29b9
+modified: 1669649334749
+created: 1669649334749
+url: "{{ _.base_url }}v1/training/courses/2/students"
+name: v1/training/courses/{id}/students
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

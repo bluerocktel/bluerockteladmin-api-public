@@ -1,0 +1,61 @@
+_id: req_5fdaf04d162a4440a4a82b43736ddb23
+type: Request
+parentId: fld_9296354a02a44b02b427f1d20c603813
+modified: 1669649334291
+created: 1669649334291
+url: "{{ _.base_url }}v1/recruitment/recruitments"
+name: v1/recruitment/recruitments
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customer_id": 4017,
+    	"speciality_id": 1,
+    	"marital_status_id": 1,
+    	"start": "2022-01-01",
+    	"salary": 65,
+    	"housed": false,
+    	"not_housed": true,
+    	"MonAM": false,
+    	"MonPM": true,
+    	"TueAM": false,
+    	"TuePM": true,
+    	"WedAM": false,
+    	"WedPM": true,
+    	"ThuAM": false,
+    	"ThuPM": true,
+    	"FriAM": false,
+    	"FriPM": true,
+    	"SatAM": false,
+    	"SatPM": true,
+    	"SunAM": false,
+    	"SunPM": true,
+    	"languages": [
+    		2,
+    		4
+    	],
+    	"filters": {
+    		"2": {
+    			"value": true
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

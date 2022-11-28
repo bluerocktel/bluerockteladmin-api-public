@@ -1,0 +1,28 @@
+_id: req_a2fa2cdfc52043ccba291d2a39ba7acb
+type: Request
+parentId: fld_d745eceee8544db285fdc0cf2ed94ec8
+modified: 1669649334206
+created: 1669649334206
+url: "{{ _.base_url }}v1/ticketing/support-teams/2"
+name: v1/ticketing/support-teams/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

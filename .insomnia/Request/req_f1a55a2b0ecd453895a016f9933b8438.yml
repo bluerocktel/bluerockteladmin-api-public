@@ -1,0 +1,24 @@
+_id: req_f1a55a2b0ecd453895a016f9933b8438
+type: Request
+parentId: fld_03ec0d3df1dc4b4c92e54ae55da750c2
+modified: 1669649334910
+created: 1669649334910
+url: "{{ _.base_url }}v1/go-cardless-mandates?customer_id=11"
+name: v1/go-cardless-mandates
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

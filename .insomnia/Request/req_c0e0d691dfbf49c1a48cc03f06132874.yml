@@ -1,0 +1,29 @@
+_id: req_c0e0d691dfbf49c1a48cc03f06132874
+type: Request
+parentId: fld_824fe447f69942969c727e3c8c5937d1
+modified: 1669649333492
+created: 1669649333492
+url: "{{baseUrl}}/v1/hostRoles"
+name: v1/hostRoles
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "name": "<string>",
+      "comment": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576505
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

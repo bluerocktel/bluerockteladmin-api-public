@@ -1,0 +1,29 @@
+_id: req_97ad3de9890a40f0b97fb688c4e5715b
+type: Request
+parentId: fld_ee3e3cdec8ce48b9a523760d277563bc
+modified: 1669649335120
+created: 1669649335120
+url: "{{ _.base_url }}v1/bundles/2"
+name: v1/bundles/{id}
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_75b580d654544ecfa0093380c90b3cb6
+    name: include
+    value: itemsLicence,itemsRecurring,itemsInitial
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647444064167
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

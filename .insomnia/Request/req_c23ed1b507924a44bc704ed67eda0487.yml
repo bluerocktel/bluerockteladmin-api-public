@@ -1,0 +1,32 @@
+_id: req_c23ed1b507924a44bc704ed67eda0487
+type: Request
+parentId: fld_373bef48107c428eb7eb9572162c4ed3
+modified: 1669649333956
+created: 1669649333956
+url: "{{ _.base_url }}v1/survey-branches?survey_id=7"
+name: v1/surveys-branches
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Branche unique"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

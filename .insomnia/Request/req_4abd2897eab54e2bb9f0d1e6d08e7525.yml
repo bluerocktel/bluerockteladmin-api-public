@@ -1,0 +1,24 @@
+_id: req_4abd2897eab54e2bb9f0d1e6d08e7525
+type: Request
+parentId: fld_fdfa6b05abee4712bbf4e725edc6b73f
+modified: 1669649334019
+created: 1669649334019
+url: "{{ _.base_url }}v1/survey-reply-requests/1087"
+name: v1/survey-reply-requests/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576934.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

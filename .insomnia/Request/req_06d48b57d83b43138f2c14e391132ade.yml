@@ -1,0 +1,28 @@
+_id: req_06d48b57d83b43138f2c14e391132ade
+type: Request
+parentId: fld_33f529e0e722489eb9331e5cccf35c56
+modified: 1669649334183
+created: 1669649334183
+url: "{{ _.base_url }}v1/replies"
+name: v1/replies
+description: Get open tickets
+method: GET
+body: {}
+parameters:
+  - name: ticketId
+    value: "10461"
+    id: pair_a6291138ed7b4bacaa4e8b18bffc4c17
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577078.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

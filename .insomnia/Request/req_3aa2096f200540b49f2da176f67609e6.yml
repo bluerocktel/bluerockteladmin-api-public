@@ -1,0 +1,21 @@
+_id: req_3aa2096f200540b49f2da176f67609e6
+type: Request
+parentId: fld_5f310b4c7987420e9b2ee3e318616141
+modified: 1669649333790
+created: 1669649333790
+url: "{{baseUrl}}/v1/contacts?contactable_type=<string>&contactable_id=<integer>"
+name: v1/contacts
+description: Get contacts for a specific "contactable" (customer/prospect/supplier)
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646672576805
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: spc_53c611dfd4694afd8612d157becb4aea
+type: ApiSpec
+parentId: wrk_b7de9150461e426abe8fc080ea15fa69
+modified: 1669649356252
+created: 1669649333341
+fileName: BlueRockTEL API Admin (public)
+contents: |-
+  openapi: 3.0.3
+  info:
+    title: 'BlueRockTEL Admin API'
+    version: '1.0'
+    description: 'Documentation for the BlueRockTEL Admin API'
+    contact: 
+      name: BlueRockTEL API Team
+      url: https://api-admin.bluerocktel.com
+      email: team-api@bluerocktel.com
+  servers:
+    - url: 'https://telecom05xx-admin.bluerocktel.net/api'
+      description: 'API Server'
+  paths: {}
+contentType: yaml

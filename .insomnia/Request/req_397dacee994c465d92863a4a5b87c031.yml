@@ -1,0 +1,24 @@
+_id: req_397dacee994c465d92863a4a5b87c031
+type: Request
+parentId: fld_24be2eddb9c34517a052cba7931ce072
+modified: 1669649334859
+created: 1669649334859
+url: "{{ _.base_url }}v1/contacts/1/coworkers"
+name: v1/contacts/{id}/coworkers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576924.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

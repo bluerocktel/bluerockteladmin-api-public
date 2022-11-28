@@ -1,0 +1,24 @@
+_id: req_a21ba7a8e59c48c78e5fba82dad4c171
+type: Request
+parentId: fld_350c7bcc8a9044fa9a5e995a344042b2
+modified: 1669649335159
+created: 1669649335159
+url: "{{ _.base_url }}v1/bundle-initial-items/65"
+name: v1/bundle-initial-items/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647192945149.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

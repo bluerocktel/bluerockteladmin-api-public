@@ -1,0 +1,32 @@
+_id: req_df5f7fcb235b4e15ad0f293ac0b4b53a
+type: Request
+parentId: fld_fd5f71d12af141b788fa35cea79853c8
+modified: 1669649334048
+created: 1669649334048
+url: "{{ _.base_url }}v1/tickets"
+name: v1/tickets
+description: Get open tickets
+method: GET
+body: {}
+parameters:
+  - name: ticketable_type
+    value: ""
+    id: pair_65e9ffc6e8fd480b969d40d49a23c151
+    disabled: true
+  - name: ticketable_id
+    value: ""
+    id: pair_a6291138ed7b4bacaa4e8b18bffc4c17
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577032
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

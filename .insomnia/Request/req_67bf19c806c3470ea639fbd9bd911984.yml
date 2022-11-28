@@ -1,0 +1,29 @@
+_id: req_67bf19c806c3470ea639fbd9bd911984
+type: Request
+parentId: fld_70f053ca7e6c452baeb27f3c077fca88
+modified: 1669649334671
+created: 1669649334671
+url: "{{ _.base_url }}v1/training/materials/2/content"
+name: v1/training/materials/{id}/content
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_0cc3b0d2fc7043419ae6d3f5da774621
+    name: as_attachment
+    value: "0"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576708
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_ea78b92cb0bd49208f1e4c2d0f206a6d
+type: Request
+parentId: fld_0da8b8f6fa4c48ceb09ad4bf7ed89ad5
+modified: 1669649335213
+created: 1669649335213
+url: "{{ _.base_url }}v1/batches/6"
+name: v1/batches/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

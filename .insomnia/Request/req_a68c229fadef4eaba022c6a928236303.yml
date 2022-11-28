@@ -1,0 +1,33 @@
+_id: req_a68c229fadef4eaba022c6a928236303
+type: Request
+parentId: fld_d745eceee8544db285fdc0cf2ed94ec8
+modified: 1669649334213
+created: 1669649334213
+url: "{{ _.base_url }}v1/ticketing/support-teams"
+name: v1/ticketing/support-teams
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "3CX Phone",
+    	"description": "This team manages support for 3CX systems."
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

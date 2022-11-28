@@ -1,0 +1,24 @@
+_id: req_920bc5ac6219406fbbef9128ed9f97dc
+type: Request
+parentId: fld_3aa769fb404a48cd920c93342d3a5982
+modified: 1669649334982
+created: 1669649334982
+url: "{{ _.base_url }}v1/invoices/66087/content"
+name: v1/invoices/{id}/content
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.9688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

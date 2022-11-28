@@ -1,0 +1,32 @@
+_id: req_60713e4742d74e9f8a05196d19ffeb6b
+type: Request
+parentId: fld_645edca8716d4f95918d78bd4572abc4
+modified: 1669649334413
+created: 1669649334413
+url: "{{ _.base_url }}v1/recruitment/candidate-resumes"
+name: v1/recruitment/candidate-resumes
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ba6865128bba4edfba6cf99d9110607e
+    name: candidate_id
+    value: "3"
+    description: ""
+  - id: pair_bbb8705baa454248ba1fe891bec782c1
+    name: type
+    value: truncated
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

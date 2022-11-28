@@ -1,0 +1,28 @@
+_id: req_599f2f0e8bdd4d69a65f51518bdc8cae
+type: Request
+parentId: fld_5478abc5156b457ba2010246cf56d01b
+modified: 1669649333560
+created: 1669649333560
+url: "{{baseUrl}}/v1/hosts/:host/softDetach"
+name: v1/hosts/{host}/softDetach
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "hostSoftwares": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576527
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

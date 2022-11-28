@@ -1,0 +1,24 @@
+_id: req_d8aaf4f3c6184a4eacb658f6d64f258c
+type: Request
+parentId: fld_c779b2de86894794964e689272d7e176
+modified: 1669649334257
+created: 1669649334257
+url: "{{ _.base_url }}v1/recruitment/specialities/1"
+name: v1/recruitment/specialities/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

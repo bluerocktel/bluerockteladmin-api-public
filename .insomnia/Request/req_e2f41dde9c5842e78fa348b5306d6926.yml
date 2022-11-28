@@ -1,0 +1,24 @@
+_id: req_e2f41dde9c5842e78fa348b5306d6926
+type: Request
+parentId: fld_fac85956f629472da2e761666a089935
+modified: 1669649334387
+created: 1669649334387
+url: "{{ _.base_url }}v1/recruitment/contracts/1"
+name: v1/recruitment/contracts/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_c72e4eb0c1104b5e9cc5d2b83d53ff71
+type: Request
+parentId: fld_33f529e0e722489eb9331e5cccf35c56
+modified: 1669649334180
+created: 1669649334180
+url: "{{ _.base_url }}v1/replies"
+name: v1/replies
+description: Get open tickets
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"body": "lorem ipsum",
+    	"close": 0,
+    	"sendToAssignee": 0,
+    	"sendToContacts": 0
+    }
+parameters:
+  - name: ticketId
+    value: "10461"
+    id: pair_a6291138ed7b4bacaa4e8b18bffc4c17
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577028.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

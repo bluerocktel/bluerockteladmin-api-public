@@ -1,0 +1,33 @@
+_id: req_b33d9706c1f24bfcb5531b96e13e0623
+type: Request
+parentId: fld_f6bf5335fbe44a7e9c71eb3afe31fd3b
+modified: 1669649333914
+created: 1669649333914
+url: "{{ _.base_url }}v1/newsletter-lists"
+name: v1/newsletter-lists
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"name": "VoIP Clients",
+    		"contacts": []
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_3c43855116d0496096877092f7d279dd
+type: Request
+parentId: fld_908618cbd2904405b4a94a571c7efe96
+modified: 1669649334193
+created: 1669649334193
+url: "{{ base_url }}v1/ticketing/attachments/20704"
+name: v1/ticketing/attachments/{id}
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: file
+      value: ""
+      id: pair_1cc72347c3ed455c871212ab53bb268f
+      type: file
+      fileName: /Users/tgeorgel/Downloads/sample.pdf
+parameters: []
+headers:
+  - name: Authorization
+    disabled: true
+    value: string
+    id: pair_d41dee427b2f418dba2cec2ad285afec
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_3330a37d17d44a529845bd578a9ed228
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: 300
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

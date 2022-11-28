@@ -1,0 +1,34 @@
+_id: req_502f65cec306471bbd8ab4554b767ed2
+type: Request
+parentId: fld_e37508fb98d5496fbc6d332233fc7f40
+modified: 1669649334690
+created: 1669649334690
+url: "{{ _.base_url }}v1/training/programs"
+name: v1/training/programs
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_089a97e3bae441bb947cd4511e1c91ce
+    name: buyable
+    value: "0"
+    description: ""
+    disabled: true
+  - id: pair_f0b18e5e86164c14b2ba7cf471da7e1f
+    name: audience
+    value: clients
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

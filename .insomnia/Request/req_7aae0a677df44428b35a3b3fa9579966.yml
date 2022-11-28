@@ -1,0 +1,34 @@
+_id: req_7aae0a677df44428b35a3b3fa9579966
+type: Request
+parentId: fld_fac85956f629472da2e761666a089935
+modified: 1669649334374
+created: 1669649334374
+url: "{{ _.base_url }}v1/recruitment/contracts"
+name: v1/recruitment/contracts
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7ba79b34794b4df298768e3e7b546039
+    name: customer_id
+    value: "10000"
+    description: ""
+    disabled: true
+  - id: pair_dad9942176e9443498d11ea81021faee
+    name: candidate_id
+    value: "6"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

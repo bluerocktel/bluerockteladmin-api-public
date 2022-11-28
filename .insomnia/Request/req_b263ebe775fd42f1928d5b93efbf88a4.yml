@@ -1,0 +1,38 @@
+_id: req_b263ebe775fd42f1928d5b93efbf88a4
+type: Request
+parentId: fld_2ecb1c1a81174fd684f63715c0adddbe
+modified: 1669649333941
+created: 1669649333941
+url: "{{ _.base_url }}v1/surveys"
+name: v1/surveys
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"active": false,
+    	"subject": "Donnez votre avis",
+    	"summary": "Enquête technique pré-déploiement 3CX",
+    	"textBefore": "Merci de remplir de formulaire.",
+    	"textAfter": "Merci pour avoir pris le temps de nous répondre.",
+    	"email_1_subject": "Enquête de satisfaction",
+    	"email_1_body": "Merci de répondre à cette enquête !"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

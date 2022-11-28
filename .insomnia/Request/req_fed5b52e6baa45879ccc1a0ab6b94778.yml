@@ -1,0 +1,24 @@
+_id: req_fed5b52e6baa45879ccc1a0ab6b94778
+type: Request
+parentId: fld_b5786bbb9aa344c0b4ddcf96d5b570a6
+modified: 1669649334796
+created: 1669649334796
+url: "{{ _.base_url }}v1/getters/marital-statuses"
+name: v1/getters/marital-statuses
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576857.9668
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

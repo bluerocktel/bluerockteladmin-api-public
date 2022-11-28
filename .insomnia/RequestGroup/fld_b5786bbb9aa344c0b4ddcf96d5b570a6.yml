@@ -1,0 +1,10 @@
+_id: fld_b5786bbb9aa344c0b4ddcf96d5b570a6
+type: RequestGroup
+parentId: wrk_b7de9150461e426abe8fc080ea15fa69
+modified: 1669649334773
+created: 1669649334773
+name: Getters
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1669644695762

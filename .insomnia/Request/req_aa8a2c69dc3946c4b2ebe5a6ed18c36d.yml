@@ -1,0 +1,28 @@
+_id: req_aa8a2c69dc3946c4b2ebe5a6ed18c36d
+type: Request
+parentId: fld_fac85956f629472da2e761666a089935
+modified: 1669649334379
+created: 1669649334379
+url: "{{ _.base_url }}v1/recruitment/contracts/1"
+name: v1/recruitment/contracts/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

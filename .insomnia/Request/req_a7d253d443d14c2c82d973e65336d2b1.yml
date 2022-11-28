@@ -1,0 +1,24 @@
+_id: req_a7d253d443d14c2c82d973e65336d2b1
+type: Request
+parentId: fld_705af8e168af43bb8c4104dcab2ee3a3
+modified: 1669649333967
+created: 1669649333967
+url: "{{ _.base_url }}v1/survey-groups/14"
+name: v1/survey-groups/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

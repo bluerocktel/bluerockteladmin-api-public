@@ -1,0 +1,21 @@
+_id: req_d6110412aceb4869b72286e7578b3d80
+type: Request
+parentId: fld_77e0fb9c645345ab89782c8bf8079f47
+modified: 1669649335278
+created: 1669649335278
+url: "{{ base_url }}/v1/helpers/3cxCountries"
+name: Returns the 3cx countries list.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1650463944247
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

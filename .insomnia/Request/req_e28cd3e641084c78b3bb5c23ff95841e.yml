@@ -1,0 +1,36 @@
+_id: req_e28cd3e641084c78b3bb5c23ff95841e
+type: Request
+parentId: fld_b95163e0526540d99f7b4256cdf846f0
+modified: 1669649335047
+created: 1669649335047
+url: "{{ _.base_url }}v1/quotes/send"
+name: v1/quotes/send
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_79572a8a314f4c60a8d55b9f50d00660
+    name: customer_file_id
+    value: "2278"
+    description: ""
+  - id: pair_4de16bef33a44b408f701f973994d7f2
+    name: type
+    value: contract
+    description: ""
+  - id: pair_0a5caa54f93d48e99cb53b00210e1f2d
+    name: email
+    value: thomas@bluerocktel.com
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576875.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

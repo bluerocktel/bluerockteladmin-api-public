@@ -1,0 +1,35 @@
+_id: req_7f69e461dab8449286b95607a6b0556b
+type: Request
+parentId: fld_dd8127f41c33492796b9631f06eb52e4
+modified: 1669649333894
+created: 1669649333894
+url: "{{ _.base_url }}v1/newsletters/27"
+name: v1/newsletters/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Informations relatives à votre compte"
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

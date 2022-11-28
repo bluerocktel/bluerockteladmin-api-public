@@ -1,0 +1,24 @@
+_id: req_b8235aa965de40268750b72c369b1e2d
+type: Request
+parentId: fld_24be2eddb9c34517a052cba7931ce072
+modified: 1669649334839
+created: 1669649334839
+url: "{{ _.base_url }}v1/contacts?contactable_type=App\\Customer&contactable_id=2"
+name: v1/contacts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576959
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

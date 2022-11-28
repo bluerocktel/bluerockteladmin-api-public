@@ -1,0 +1,35 @@
+_id: req_efced7fd09554318b4a04e5938e7d240
+type: Request
+parentId: fld_fed6a5d982564c16a64252f411129bec
+modified: 1669649333379
+created: 1669649333379
+url: "{{baseUrl}}/v1/hostNetworkInterfaces/:hostNetworkInterface"
+name: v1/hostNetworkInterfaces/{hostNetworkInterface}
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "host_id": "<number>",
+      "name": "<string>",
+      "vlan": "<string>",
+      "ipv4": "<string>",
+      "ipv6": "<string>",
+      "reverse": "<string>",
+      "active": "<number>",
+      "comment": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576471
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

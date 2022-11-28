@@ -1,0 +1,27 @@
+_id: req_4da59fcc362040149c088b7fe77913be
+type: Request
+parentId: fld_4b3e93410f214848b04a15bf8c470a64
+modified: 1669649335263
+created: 1669649335263
+url: "{{ _.base_url }}v1/information-collections/4"
+name: v1/information-collections/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_2263ffd97b63447a887c3c8277d67a9a
+    name: accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576708.7422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

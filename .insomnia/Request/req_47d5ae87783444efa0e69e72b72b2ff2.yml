@@ -1,0 +1,24 @@
+_id: req_47d5ae87783444efa0e69e72b72b2ff2
+type: Request
+parentId: fld_cc70fca1a815416cad218279ebcb3ffd
+modified: 1669649334442
+created: 1669649334442
+url: "{{ _.base_url }}v1/recruitment/interviews/1"
+name: v1/recruitment/interviews/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

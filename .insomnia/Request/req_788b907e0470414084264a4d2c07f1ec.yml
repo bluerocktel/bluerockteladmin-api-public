@@ -1,0 +1,28 @@
+_id: req_788b907e0470414084264a4d2c07f1ec
+type: Request
+parentId: fld_b51ceed4b9434c78a18d44834321445f
+modified: 1669649334933
+created: 1669649334933
+url: "{{ _.base_url }}v1/bank-details/1967"
+name: v1/bank-details/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

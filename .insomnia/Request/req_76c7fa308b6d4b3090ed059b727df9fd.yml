@@ -1,0 +1,24 @@
+_id: req_76c7fa308b6d4b3090ed059b727df9fd
+type: Request
+parentId: fld_fd5f71d12af141b788fa35cea79853c8
+modified: 1669649334063
+created: 1669649334063
+url: "{{ _.base_url }}v1/tickets/reopen/1310"
+name: v1/tickets/reopen/{ticket}
+description: Open (reopen) a ticket
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576978.0938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

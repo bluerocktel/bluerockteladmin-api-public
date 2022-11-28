@@ -1,0 +1,32 @@
+_id: req_8753e9ad27e24faf9bee4b257090a4cb
+type: Request
+parentId: fld_88a83f5d746d480fbbd2182ba3276634
+modified: 1669649333805
+created: 1669649333805
+url: "{{baseUrl}}/v1/ticketSubCategories"
+name: v1/ticketSubCategories
+description: Store a new ticket sub category.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "ticket_category_id": "<number>",
+      "name": "<string>",
+      "active": "<boolean>",
+      "priority_id": "<number>",
+      "support_team_id": "<number>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

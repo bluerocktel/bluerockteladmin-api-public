@@ -1,0 +1,24 @@
+_id: req_07ea5367eab74508bd712541a6adb64e
+type: Request
+parentId: fld_7da441205aba4596bdc2d99525394a9b
+modified: 1669649333361
+created: 1669649333361
+url: "{{baseUrl}}v1/pbx3cxHosts"
+name: v1/pbx3cxHosts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

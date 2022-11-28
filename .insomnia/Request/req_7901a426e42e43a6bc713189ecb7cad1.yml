@@ -1,0 +1,32 @@
+_id: req_7901a426e42e43a6bc713189ecb7cad1
+type: Request
+parentId: fld_b70724c4cc65407b8e1b481394625ebf
+modified: 1669649334131
+created: 1669649334131
+url: "{{ _.base_url }}v1/ticketing/startTracking"
+name: v1/ticketing/startTracking
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ticket_id": 1310
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_59835051737b4c179a03a7a1c887d90f
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

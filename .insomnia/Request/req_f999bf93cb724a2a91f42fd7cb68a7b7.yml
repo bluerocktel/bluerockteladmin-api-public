@@ -1,0 +1,36 @@
+_id: req_f999bf93cb724a2a91f42fd7cb68a7b7
+type: Request
+parentId: fld_cc70fca1a815416cad218279ebcb3ffd
+modified: 1669649334445
+created: 1669649334445
+url: "{{ _.base_url }}v1/recruitment/interviews"
+name: v1/recruitment/interviews
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"candidate_id": 8,
+    	"recruitment_id": 4,
+    	"interviewed_at": "2022-09-10",
+    	"status": "pending",
+    	"comment": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

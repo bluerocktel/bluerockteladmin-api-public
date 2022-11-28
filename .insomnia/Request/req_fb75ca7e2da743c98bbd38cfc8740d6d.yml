@@ -1,0 +1,24 @@
+_id: req_fb75ca7e2da743c98bbd38cfc8740d6d
+type: Request
+parentId: fld_354d0bc8ff174426be7e8b2501a6aa7c
+modified: 1669649335090
+created: 1669649335090
+url: "{{ _.base_url }}v1/families/21"
+name: v1/families/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647192945149.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

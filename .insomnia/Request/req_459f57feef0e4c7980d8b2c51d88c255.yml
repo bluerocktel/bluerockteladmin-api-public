@@ -1,0 +1,36 @@
+_id: req_459f57feef0e4c7980d8b2c51d88c255
+type: Request
+parentId: fld_a76ff9e2a0a641abaa7c63ef810d47ab
+modified: 1669649333369
+created: 1669649333369
+url: "{{ _.base_url }}/v1/pbx3cx-call-logs"
+name: v1/pbx3cxCalls/{pbx3cxCall}
+description: Get the full detail of a call. {pbx3cxCall} must be the call's unique id.
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	'host_name'
+    }
+parameters:
+  - id: pair_5de00544a86c420ba14bfa291c6550d3
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_14bd59eae4b647f1aa228ac2ed19b9b9
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_3f7e6761f1864943b27f3215eebccad7
+type: Request
+parentId: fld_fd5f71d12af141b788fa35cea79853c8
+modified: 1669649334067
+created: 1669649334067
+url: "{{ _.base_url }}v1/tickets/export/94"
+name: v1/tickets/export/{ticket}
+description: Close a ticket
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"with_segments": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4400643964f440778388d9894341786c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576968.3281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

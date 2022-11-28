@@ -1,0 +1,24 @@
+_id: req_5d92ee457b5f47e5abeaa0314acdd375
+type: Request
+parentId: fld_72a630189fd845878ddb191b964b7f5f
+modified: 1669649334345
+created: 1669649334345
+url: "{{ _.base_url }}v1/recruitment/family-members/1"
+name: v1/recruitment/family-members/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

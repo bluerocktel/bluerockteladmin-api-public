@@ -1,0 +1,35 @@
+_id: req_5fc87dc0b674446887956a66494d3bf3
+type: Request
+parentId: fld_70f053ca7e6c452baeb27f3c077fca88
+modified: 1669649334658
+created: 1669649334658
+url: "{{ _.base_url }}v1/training/materials/1"
+name: v1/training/materials/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"expires_at": null
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_f8d561e6667c48609f9f58b9bd5aa637
+type: Request
+parentId: fld_3c768649bf2848eb91b826c75226429f
+modified: 1669649334091
+created: 1669649334091
+url: "{{ _.base_url }}v1/ticketing/supportContracts/customer"
+name: v1/ticketing/supportContracts/customer
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b50e99ad63f745c6937b56f8086595aa
+    name: customer_id
+    value: "94"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576858.6406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_a1bc1e8a43944a71a293b0dfcdefa3d5
+type: Request
+parentId: fld_c120a763c9264c1299527766ca6b338d
+modified: 1669649333529
+created: 1669649333529
+url: "{{baseUrl}}/v1/datacenters/:datacenter"
+name: v1/datacenters/{datacenter}
+description: ""
+method: DELETE
+body:
+  mimeType: ""
+  text: |-
+    {
+      "host_supplier_id": "<number>",
+      "code": "<string>",
+      "name": "<string>",
+      "comment": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576519
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

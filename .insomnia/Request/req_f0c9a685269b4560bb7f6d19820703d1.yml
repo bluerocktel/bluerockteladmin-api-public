@@ -1,0 +1,28 @@
+_id: req_f0c9a685269b4560bb7f6d19820703d1
+type: Request
+parentId: fld_72a630189fd845878ddb191b964b7f5f
+modified: 1669649334332
+created: 1669649334332
+url: "{{ _.base_url }}v1/recruitment/family-members"
+name: v1/recruitment/family-members
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_dd766596953f4143bb4013141cbd4110
+    name: employer_detail_id
+    value: "4524"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_830324d03567489eb2c6ab99fd350562
+type: Request
+parentId: fld_12b3a557ae934ead81179909ad064ffc
+modified: 1669649333813
+created: 1669649333813
+url: "{{baseUrl}}/v1/ticketCategories/:ticketCategory"
+name: v1/ticketCategories/{ticketCategory}
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "name": "<string>",
+      "active": "<boolean>",
+      "showable": "<boolean>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576993
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

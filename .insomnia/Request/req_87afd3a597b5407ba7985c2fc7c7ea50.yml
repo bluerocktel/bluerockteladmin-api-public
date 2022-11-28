@@ -1,0 +1,30 @@
+_id: req_87afd3a597b5407ba7985c2fc7c7ea50
+type: Request
+parentId: fld_1f8e726f5dcf490e9b54ec67d0f9c89a
+modified: 1669649333706
+created: 1669649333706
+url: "{{baseUrl}}/v1/ticketTemplates/:ticketTemplate"
+name: v1/ticketTemplates/{ticketTemplate}
+description: Update a ticket template
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "name": "<string>",
+      "subject": "<string>",
+      "body": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576788
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

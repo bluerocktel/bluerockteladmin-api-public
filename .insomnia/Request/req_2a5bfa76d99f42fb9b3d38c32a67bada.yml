@@ -1,0 +1,29 @@
+_id: req_2a5bfa76d99f42fb9b3d38c32a67bada
+type: Request
+parentId: fld_19e77eda0b4f48418ff3a324c8427081
+modified: 1669649333502
+created: 1669649333502
+url: "{{baseUrl}}/v1/hostOs/:hostOs"
+name: v1/hostOs/{hostOs}
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "name": "<string>",
+      "comment": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576511
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

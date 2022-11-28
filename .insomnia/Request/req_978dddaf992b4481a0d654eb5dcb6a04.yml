@@ -1,0 +1,35 @@
+_id: req_978dddaf992b4481a0d654eb5dcb6a04
+type: Request
+parentId: fld_0da8b8f6fa4c48ceb09ad4bf7ed89ad5
+modified: 1669649335217
+created: 1669649335217
+url: "{{ _.base_url }}v1/batches/6"
+name: v1/batches/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Batch des services"
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,39 @@
+_id: req_3d3de3b24bb647aeaf6986231b5950bb
+type: Request
+parentId: fld_d001428dd4e0433395ea87e973e88dae
+modified: 1669649334616
+created: 1669649334616
+url: "{{ _.base_url }}v1/training/courses"
+name: v1/training/courses
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Dog Grooming first approach",
+    	"excerpt": "Learn dog grooming basic in this introductive course.",
+    	"description": "lorem ipsum dolor sit amet",
+    	"published": false,
+    	"audience": "clients",
+    	"free": false,
+    	"price": 179.99,
+    	"buyable": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

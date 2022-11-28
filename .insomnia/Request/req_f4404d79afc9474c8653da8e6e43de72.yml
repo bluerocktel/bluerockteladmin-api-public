@@ -1,0 +1,35 @@
+_id: req_f4404d79afc9474c8653da8e6e43de72
+type: Request
+parentId: fld_f2f6095078284a28867286b24a2850d6
+modified: 1669649334101
+created: 1669649334101
+url: "{{ _.base_url }}v1/ticketing/supportSheets/1"
+name: v1/ticketing/supportSheets/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"body": "Ceci est mon corp."
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_368460f4de0d424f92168bb9c88cffd7
+type: Request
+parentId: fld_aa31bcb52eb74bd1bd6220472d2ec90a
+modified: 1669649333871
+created: 1669649333871
+url: "{{baseUrl}}/v1/replies?ticketId=<string>"
+name: v1/replies
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "body": "<string>",
+      "close": "<boolean>",
+      "sendToAssignee": "<boolean>",
+      "sendToContacts": "<boolean>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576461
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

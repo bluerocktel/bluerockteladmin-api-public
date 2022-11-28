@@ -1,0 +1,24 @@
+_id: req_6d57cfb2d9c841318e63a1b95a9c3c48
+type: Request
+parentId: fld_e37508fb98d5496fbc6d332233fc7f40
+modified: 1669649334704
+created: 1669649334704
+url: "{{ _.base_url }}v1/training/programs/1"
+name: v1/training/programs/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

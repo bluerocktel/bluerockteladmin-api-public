@@ -1,0 +1,34 @@
+_id: req_c03dbc2c989e446fba663f6fef9c03e9
+type: Request
+parentId: fld_6f7d1d12506f49d78fe0fa01181004a8
+modified: 1669649333928
+created: 1669649333928
+url: "{{ _.base_url }}v1/newsletter-campaigns"
+name: v1/newsletter-campaigns
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Panne OVH 12/12/2000",
+    	"newsletter_id": 12,
+    	"newsletter_list_id": 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

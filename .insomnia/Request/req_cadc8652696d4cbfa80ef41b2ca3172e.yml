@@ -1,0 +1,24 @@
+_id: req_cadc8652696d4cbfa80ef41b2ca3172e
+type: Request
+parentId: fld_f2f6095078284a28867286b24a2850d6
+modified: 1669649334096
+created: 1669649334096
+url: "{{ _.base_url }}v1/ticketing/supportSheets?customer_id=94"
+name: v1/ticketing/supportSheets
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

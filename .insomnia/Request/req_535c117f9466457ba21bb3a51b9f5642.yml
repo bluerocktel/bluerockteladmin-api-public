@@ -1,0 +1,32 @@
+_id: req_535c117f9466457ba21bb3a51b9f5642
+type: Request
+parentId: fld_468962b39e664ceaa688d332e4e17989
+modified: 1669649333397
+created: 1669649333397
+url: "{{baseUrl}}/v1/sheets/:sheet"
+name: v1/sheets/{sheet}
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "sheetable_id": "<number>",
+      "sheetable_type": "<string>",
+      "title": "<string>",
+      "body": "<string>",
+      "tags": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

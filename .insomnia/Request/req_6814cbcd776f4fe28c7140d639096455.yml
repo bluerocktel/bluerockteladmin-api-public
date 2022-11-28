@@ -1,0 +1,28 @@
+_id: req_6814cbcd776f4fe28c7140d639096455
+type: Request
+parentId: fld_c779b2de86894794964e689272d7e176
+modified: 1669649334252
+created: 1669649334252
+url: "{{ _.base_url }}v1/recruitment/specialities/1"
+name: v1/recruitment/specialities/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

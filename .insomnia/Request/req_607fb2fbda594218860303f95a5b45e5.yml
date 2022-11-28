@@ -1,0 +1,24 @@
+_id: req_607fb2fbda594218860303f95a5b45e5
+type: Request
+parentId: fld_3c768649bf2848eb91b826c75226429f
+modified: 1669649334085
+created: 1669649334085
+url: "{{ _.base_url }}v1/ticketing/supportContracts/1"
+name: v1/ticketing/supportContracts/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

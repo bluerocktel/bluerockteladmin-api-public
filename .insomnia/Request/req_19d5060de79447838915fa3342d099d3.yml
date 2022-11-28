@@ -1,0 +1,28 @@
+_id: req_19d5060de79447838915fa3342d099d3
+type: Request
+parentId: fld_aec7d6dd059641ba8ab5f1e079dedcd9
+modified: 1669649334245
+created: 1669649334245
+url: "{{ _.base_url }}v1/recruitment/candidates/search"
+name: v1/recruitment/candidates/search
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_6ec435754aa847ddbe020823d48b129e
+    name: term
+    value: "10498"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576708
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

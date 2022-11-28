@@ -1,0 +1,40 @@
+_id: req_00f03bd5af4b4fb7af07321ad105bd1f
+type: Request
+parentId: fld_f2149c1538154dd290dddbc52ee2f94c
+modified: 1669649335199
+created: 1669649335199
+url: "{{ _.base_url }}v1/brands/1"
+name: v1/brands/{id}
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_ad6d682056ad400f9e2e3abc708d44a3
+      name: logo
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: /home/tgeorgel/Downloads/logo1.jpg
+    - id: pair_584d02229b964c7792b61537bf3b28a1
+      name: _method
+      value: PUT
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_72d5b987976e495bb8aa2c599b7f3256
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576857.7422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

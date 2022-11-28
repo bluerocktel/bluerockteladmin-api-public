@@ -1,0 +1,28 @@
+_id: req_f60cc292bd5445d08b511af650edd0b5
+type: Request
+parentId: fld_d23b4e0ed6ad4330aa2b2d67a35ffbd0
+modified: 1669649334876
+created: 1669649334876
+url: "{{ _.base_url }}v1/notes/147550"
+name: v1/notes/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

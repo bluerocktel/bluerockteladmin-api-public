@@ -1,0 +1,26 @@
+_id: req_5ad55b3f758544039069011bf25e4106
+type: Request
+parentId: fld_a76ff9e2a0a641abaa7c63ef810d47ab
+modified: 1669649333371
+created: 1669649333371
+url: "{{baseUrl}}/v1/pbx3cxCalls?code=<integer>&timespan=<string>"
+name: v1/pbx3cxCalls
+description: >-
+  Get the list of calls for the host on a specific 15 minutes timespan.
+
+  The key contains the call's unique id; the value contain a chain with those elements separated by semicolons : start time, end time, is answered, talking duration, first caller number, second caller number.
+
+  You will call the route v1/pbx3cxCalls/{pbx3cxCall} with the call's unique id in order to get the full information about the call.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646672576468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

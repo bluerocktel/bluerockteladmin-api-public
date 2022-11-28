@@ -1,0 +1,32 @@
+_id: req_8c930dacdaf749da84b479f34c8128a0
+type: Request
+parentId: fld_636108ec85f4463390ba682086b16fbe
+modified: 1669649334515
+created: 1669649334515
+url: "{{ _.base_url }}v1/training/quiz-groups?quiz_id=3"
+name: v1/training/quiz-groups
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Que savez-vous des files d'appel ?"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

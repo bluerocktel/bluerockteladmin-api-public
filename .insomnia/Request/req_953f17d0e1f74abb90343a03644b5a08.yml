@@ -1,0 +1,31 @@
+_id: req_953f17d0e1f74abb90343a03644b5a08
+type: Request
+parentId: fld_d6801604bc6b491ca1efdfe3cd5ba540
+modified: 1669649333539
+created: 1669649333539
+url: "{{baseUrl}}/v1/datacenters"
+name: v1/datacenters
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "host_supplier_id": "<number>",
+      "code": "<string>",
+      "name": "<string>",
+      "comment": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576518
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

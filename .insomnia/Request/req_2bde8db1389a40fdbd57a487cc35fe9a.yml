@@ -1,0 +1,39 @@
+_id: req_2bde8db1389a40fdbd57a487cc35fe9a
+type: Request
+parentId: fld_03078e7adc6042aab030d19d9e0241f9
+modified: 1669649334810
+created: 1669649334810
+url: "{{ _.base_url }}v1/customers"
+name: v1/customers
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b8a0b3e196cb4a028ae414a704f578ed
+    name: per_page
+    value: "3"
+    description: ""
+    disabled: false
+  - id: pair_f9f97d3fe324449fbf9770c8143dbf34
+    name: page
+    value: "200"
+    description: ""
+    disabled: false
+  - id: pair_8a25dd642dc7475bb52fd04e9f6ff128
+    name: nb
+    value: "3"
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

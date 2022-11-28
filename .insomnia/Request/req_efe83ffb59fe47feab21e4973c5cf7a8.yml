@@ -1,0 +1,24 @@
+_id: req_efe83ffb59fe47feab21e4973c5cf7a8
+type: Request
+parentId: fld_8571bd5023904a8a8fd29287bd8a364a
+modified: 1669649335001
+created: 1669649335001
+url: "{{ _.base_url }}v1/invoices-proforma/317"
+name: v1/invoices-proforma/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576797.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

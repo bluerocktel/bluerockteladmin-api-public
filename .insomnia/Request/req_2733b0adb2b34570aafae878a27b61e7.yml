@@ -1,0 +1,24 @@
+_id: req_2733b0adb2b34570aafae878a27b61e7
+type: Request
+parentId: fld_bb572f0d44e84b28be6288a5a85fba4b
+modified: 1669649333852
+created: 1669649333852
+url: "{{ _.base_url }}/v1/sales-tasks"
+name: v1/sales-tasks
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1667797991475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

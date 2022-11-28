@@ -1,0 +1,37 @@
+_id: req_a6f0f3ec56ab46f59e7e7314490c0bdb
+type: Request
+parentId: fld_6a60da879573484bbfa0428fbe6fe186
+modified: 1669649334532
+created: 1669649334532
+url: "{{ _.base_url }}v1/training/quiz-questions/3"
+name: v1/training/quiz-questions/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"question": "Conbien de numéros peuvent être rattachés à votre ligne ?",
+    	"questionType": "multipleChoice",
+    	"mandatoryReply": true
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

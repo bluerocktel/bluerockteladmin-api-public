@@ -1,0 +1,29 @@
+_id: req_12476cf1fbc44d8ea9ed384967a889de
+type: Request
+parentId: fld_9bedc59d539449ee90e00e34efd3003f
+modified: 1669649333524
+created: 1669649333524
+url: "{{baseUrl}}/v1/hostFunctions"
+name: v1/hostFunctions
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "name": "<string>",
+      "comment": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576513
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_54a62658adff44379e75ef54cbf8a00a
+type: Request
+parentId: fld_88a83f5d746d480fbbd2182ba3276634
+modified: 1669649333803
+created: 1669649333803
+url: "{{baseUrl}}/v1/ticketSubCategories"
+name: v1/ticketSubCategories
+description: Get sub-categories for tickets.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646672576811
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

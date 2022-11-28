@@ -1,0 +1,33 @@
+_id: req_cb68547b335d4747856c774496009052
+type: Request
+parentId: fld_99f4e9ab94ed4b209030ee4095363643
+modified: 1669649335105
+created: 1669649335105
+url: "{{ _.base_url }}v1/subfamilies"
+name: v1/subfamilies
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "VoIP",
+    	"family_id": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f8fb3f6b0c944fdaa5772984d13fe6fd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647300499254.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

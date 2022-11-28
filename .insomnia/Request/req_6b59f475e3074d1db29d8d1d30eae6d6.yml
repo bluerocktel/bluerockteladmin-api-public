@@ -1,0 +1,28 @@
+_id: req_6b59f475e3074d1db29d8d1d30eae6d6
+type: Request
+parentId: fld_03078e7adc6042aab030d19d9e0241f9
+modified: 1669649334815
+created: 1669649334815
+url: "{{ _.base_url }}v1/customers/4025"
+name: v1/customers/{customer}
+description: ""
+method: DELETE
+body: {}
+parameters:
+  - id: pair_97a634a2985e4fcaa5a6ef7e76ee6007
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_76b111d3026747c892199d6bdc1cc279
+type: Request
+parentId: fld_1f8e726f5dcf490e9b54ec67d0f9c89a
+modified: 1669649333711
+created: 1669649333711
+url: "{{baseUrl}}/v1/ticketTemplates/:ticketTemplate"
+name: v1/ticketTemplates/{ticketTemplate}
+description: Get a ticket template
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646672576789
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

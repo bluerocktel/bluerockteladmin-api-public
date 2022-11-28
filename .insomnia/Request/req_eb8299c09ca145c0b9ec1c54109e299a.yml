@@ -1,0 +1,29 @@
+_id: req_eb8299c09ca145c0b9ec1c54109e299a
+type: Request
+parentId: fld_92a6034680314073a5c42a9ee6274874
+modified: 1669649333456
+created: 1669649333456
+url: "{{baseUrl}}/v1/hostShells/:hostShell"
+name: v1/hostShells/{hostShell}
+description: ""
+method: PUT
+body:
+  mimeType: ""
+  text: |-
+    {
+      "name": "<string>",
+      "comment": "<string>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1646672576497
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,61 @@
+_id: req_f1d57ff99dad4c93b44f82e657421bd9
+type: Request
+parentId: fld_70f053ca7e6c452baeb27f3c077fca88
+modified: 1669649334667
+created: 1669649334667
+url: "{{ _.base_url }}v1/training/materials"
+name: v1/training/materials
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: title
+      value: Document 1 (video)
+      id: pair_4be5770fa83a4728a04129400a4106ca
+    - id: pair_301d01f6ba7e44a4b073e42ae2392ef8
+      name: type
+      value: video
+      description: ""
+    - id: pair_7143d80ca30c4769a2092d55e0d26240
+      name: external
+      value: "1"
+      description: ""
+    - id: pair_40fbae11d9524bbf98c8a5cd70edff9d
+      name: external_url
+      value: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      description: ""
+    - id: pair_f1d54873738f4f3c8b08642750cd5349
+      name: expires_at
+      value: 2023-01-01
+      description: ""
+      disabled: true
+    - id: pair_d1d3b8c46a6341dd902d952faf9db34e
+      name: document
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/tgeorgel/Desktop/Enregistrement de l’écran 2022-09-27 à
+        08.34.58.mp4
+      disabled: true
+    - id: pair_14bd26ac8e184bcaa16b4b1c41e25d0f
+      name: lessons[]
+      value: "6"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,41 @@
+_id: req_ee776d3d13154c04b604cc5de6fc9795
+type: Request
+parentId: fld_3c768649bf2848eb91b826c75226429f
+modified: 1669649334088
+created: 1669649334088
+url: "{{ _.base_url }}v1/ticketing/supportContracts"
+name: v1/ticketing/supportContracts
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"type": 1,
+    	"points_total": 150
+    }
+parameters:
+  - id: pair_4dceb3f0c54b478cb1f7f9f4c2d19688
+    name: support_contracteable_type
+    value: App\Customer
+    description: ""
+  - id: pair_0952ad342e2d4b44b49fa22a17863165
+    name: support_contracteable_id
+    value: "94"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

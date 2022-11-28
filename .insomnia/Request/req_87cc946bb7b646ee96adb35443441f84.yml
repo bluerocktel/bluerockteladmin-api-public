@@ -1,0 +1,33 @@
+_id: req_87cc946bb7b646ee96adb35443441f84
+type: Request
+parentId: fld_5219f02b906b489d82b4c0e5f491b8e8
+modified: 1669649335241
+created: 1669649335241
+url: "{{ _.base_url }}v1/languages"
+name: v1/languages
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code": "Pol",
+    	"name": "Polonais"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

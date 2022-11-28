@@ -1,0 +1,21 @@
+_id: req_71163a429315431b8e07430bb8f757df
+type: Request
+parentId: fld_c589e75b1ac44ea0b97381ff0b7e11d3
+modified: 1669649333694
+created: 1669649333694
+url: "{{baseUrl}}/v1/replyTemplates/:replyTemplate"
+name: v1/replyTemplates/{replyTemplate}
+description: Update a reply template
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646672576783
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

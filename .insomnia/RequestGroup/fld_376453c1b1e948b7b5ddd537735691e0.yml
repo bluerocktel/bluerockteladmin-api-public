@@ -1,0 +1,14 @@
+_id: fld_376453c1b1e948b7b5ddd537735691e0
+type: RequestGroup
+parentId: wrk_b7de9150461e426abe8fc080ea15fa69
+modified: 1669649333345
+created: 1669649333345
+name: Auth
+description: |-
+  Contact Support:
+   Name: Cyrille Georgel
+   Email: cyrille@bluerocktel.com
+environment:
+  baseUrl: https://telecom0555-admin.bluerocktel.net/api/
+environmentPropertyOrder: null
+metaSortKey: -1669644695812

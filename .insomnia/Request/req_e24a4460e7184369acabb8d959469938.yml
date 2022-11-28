@@ -1,0 +1,24 @@
+_id: req_e24a4460e7184369acabb8d959469938
+type: Request
+parentId: fld_d72763fe9e00491898e423c4a05c8a32
+modified: 1669649334154
+created: 1669649334154
+url: "{{ _.base_url }}v1/ticketing/sharedSupportContracts?filter[contract_id]=2"
+name: v1/ticketing/sharedSupportContracts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

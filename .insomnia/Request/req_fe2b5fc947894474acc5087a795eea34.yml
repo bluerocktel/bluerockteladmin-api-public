@@ -1,0 +1,24 @@
+_id: req_fe2b5fc947894474acc5087a795eea34
+type: Request
+parentId: fld_b5786bbb9aa344c0b4ddcf96d5b570a6
+modified: 1669649334776
+created: 1669649334776
+url: "{{ _.base_url }}v1/getters/civilities"
+name: v1/getters/civilities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576858.1016
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_5f43885281414ceeb5597e861cad08a3
+type: Request
+parentId: fld_70f053ca7e6c452baeb27f3c077fca88
+modified: 1669649334650
+created: 1669649334650
+url: "{{ _.base_url }}v1/training/materials"
+name: v1/training/materials
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_089a97e3bae441bb947cd4511e1c91ce
+    name: published
+    value: "0"
+    description: ""
+    disabled: true
+  - id: pair_f0b18e5e86164c14b2ba7cf471da7e1f
+    name: audience
+    value: team
+    description: ""
+    disabled: true
+  - id: pair_26b1ac433de94e58be4f80f072debb88
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

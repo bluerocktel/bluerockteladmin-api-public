@@ -1,0 +1,39 @@
+_id: req_aebc3d8ee908426d98157b44164dec82
+type: Request
+parentId: fld_ebed7d840b4d4c5c8fe1f603a65e0381
+modified: 1669649333358
+created: 1669649333358
+url: "{{ _.base_url }}v1/pbx3cxHosts"
+name: v1/pbx3cxHosts
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"host_name": "nomade-aventure.my3cx.fr",
+    	"make_csv_data": true,
+    	"cl_calls_is_sync": true
+    }
+parameters:
+  - id: pair_cf761674faa94b14957123541a52cb9a
+    name: host_name
+    value: ""
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_469a1a0194004284b7606e7f031730fa
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576464.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

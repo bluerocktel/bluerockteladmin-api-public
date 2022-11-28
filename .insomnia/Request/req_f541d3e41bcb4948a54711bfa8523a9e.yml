@@ -1,0 +1,24 @@
+_id: req_f541d3e41bcb4948a54711bfa8523a9e
+type: Request
+parentId: fld_0da8b8f6fa4c48ceb09ad4bf7ed89ad5
+modified: 1669649335206
+created: 1669649335206
+url: "{{ _.base_url }}v1/batches"
+name: v1/batches
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

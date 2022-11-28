@@ -1,0 +1,10 @@
+_id: fld_b6ddf9ba02f74c9db3bf472021d97394
+type: RequestGroup
+parentId: wrk_b7de9150461e426abe8fc080ea15fa69
+modified: 1669649334806
+created: 1669649334806
+name: Core
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1669644695712

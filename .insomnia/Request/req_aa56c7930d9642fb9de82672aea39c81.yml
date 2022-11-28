@@ -1,0 +1,28 @@
+_id: req_aa56c7930d9642fb9de82672aea39c81
+type: Request
+parentId: fld_e579994604e142fb96c5b6dc358a22f4
+modified: 1669649334476
+created: 1669649334476
+url: "{{ _.base_url }}v1/training/quizzes/7"
+name: v1/training/quizzes/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
