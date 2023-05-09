@@ -1,0 +1,28 @@
+_id: req_c5f2b25497124aec962b40c989ff0f38
+type: Request
+parentId: fld_e01247bc90944a6c98ce0d0e01ebecbf
+modified: 1683648831507
+created: 1683648831507
+url: "{{ _.base_url }}v1/quotes/generate"
+name: v1/quotes/generate
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_79572a8a314f4c60a8d55b9f50d00660
+    name: customer_file_id
+    value: "2278"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

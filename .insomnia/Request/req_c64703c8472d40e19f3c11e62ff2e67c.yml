@@ -1,0 +1,98 @@
+_id: req_c64703c8472d40e19f3c11e62ff2e67c
+type: Request
+parentId: fld_8941c237856645d29582ea55fe9f8932
+modified: 1683648830915
+created: 1683648830915
+url: "{{ _.base_url }}v1/recruitment/candidate-queries"
+name: v1/recruitment/candidate-queries
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f9439f9931c848e1b336730eef58a843
+    name: filter[has_speciality]
+    value: 23,24,12,21
+    description: ""
+    disabled: false
+  - id: pair_ef9efe4894b94364948b4b2b6432baaa
+    name: filter[has_recruit_filters]
+    value: 2,3
+    description: ""
+    disabled: true
+  - id: pair_a1596f4f2d7a46f4a0a0643cc5852f9f
+    name: filter[has_recruit_filters]
+    value: "8"
+    description: ""
+    disabled: true
+  - id: pair_752f458789c34fc6beb1300ae613be43
+    name: filter[recruit_filter][8]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_0a7fda9a396e4cf5a42c2419808a2076
+    name: filter[recruit_filter][13]
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_e1f27a3bff6d4b119933f830acab1488
+    name: filter[available_for_part_time]
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_2aa8772d70bd4468813bb28bf817c774
+    name: filter[available_for_full_time]
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_d9640a4a515b482a9e846a3f5fd077dc
+    name: filter[available_for_country]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_258bcee9b5d9454ab1e30a8e7a8ce6a2
+    name: filter[available_for_abroad]
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_59fcb1c9fc254142a6f91f3c2069bd78
+    name: filter[available_for_housed]
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_0bd0f1ab662a4a53b755ed9ecddcabc9
+    name: filter[available_for_not_housed]
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_b6e172b99b444678aaff866f9fa2a1f2
+    name: filter[available_for_weekend]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_15edf899eca14acaa7b9bb7d6e665676
+    name: filter[available_on]
+    value: MonPM,MonAM
+    description: ""
+    disabled: false
+  - id: pair_37d0a8a5db63442bb478743929fddaa8
+    name: include
+    value: filters
+    description: ""
+    disabled: true
+  - id: pair_d3e8c7ac2e884dbda6c3d94c6c38bf94
+    name: per_page
+    value: "30"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_6bf1296fcda64654984e6141bfae5590
+type: Request
+parentId: fld_5f1dba7de38e4c5fa9d6c94ae194ad4f
+modified: 1683648831671
+created: 1683648831671
+url: "{{ _.base_url }}v1/incomingMails"
+name: v1/incomingMails
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_3f8355e49fa749d3816dd5051eebf735
+    name: Origin
+    value: http://localhost.com
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

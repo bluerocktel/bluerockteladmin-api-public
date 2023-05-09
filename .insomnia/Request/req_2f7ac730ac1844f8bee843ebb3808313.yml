@@ -1,0 +1,38 @@
+_id: req_2f7ac730ac1844f8bee843ebb3808313
+type: Request
+parentId: fld_b06b88845aa14d0f8a377eb644e1e150
+modified: 1683648831142
+created: 1683648831142
+url: "{{ _.base_url }}v1/training/lessons"
+name: v1/training/lessons
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"course_id": 34,
+    	"order": 1,
+    	"title": "Chapter 1",
+    	"reference": "rfc#12",
+    	"excerpt": "Intro text (optional)",
+    	"text": "The lesson text (optional)",
+    	"time_minutes": 10
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

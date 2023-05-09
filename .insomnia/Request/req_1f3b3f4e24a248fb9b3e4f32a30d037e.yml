@@ -1,0 +1,24 @@
+_id: req_1f3b3f4e24a248fb9b3e4f32a30d037e
+type: Request
+parentId: fld_cf98fa106fcb4e3d9d4c08466f947f70
+modified: 1683648831381
+created: 1683648831381
+url: "{{ _.base_url }}v1/documents/8241/content"
+name: v1/documents/{id}/content
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

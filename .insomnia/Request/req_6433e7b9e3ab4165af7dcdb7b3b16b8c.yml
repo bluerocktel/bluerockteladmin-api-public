@@ -1,0 +1,24 @@
+_id: req_6433e7b9e3ab4165af7dcdb7b3b16b8c
+type: Request
+parentId: fld_f7b02ee4a07047578ebbe461fc8cebee
+modified: 1683648830580
+created: 1683648830580
+url: "{{ _.base_url }}v1/ticketing/customerReport?customer_id=94&start=01/03/2022"
+name: v1/ticketing/customerReport
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

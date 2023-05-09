@@ -1,0 +1,28 @@
+_id: req_93a37c30ec17485d965609c9e6beb804
+type: Request
+parentId: fld_a5c998b1383a4786b4aff562d53fa518
+modified: 1683648831941
+created: 1683648831941
+url: "{{ _.base_url }}/v1/ovh-cloud-projects"
+name: Get projects
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_c04325cad0fd49e4813b4eb6b264895d
+    name: config_ovh_id
+    value: "1"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1663673765931
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

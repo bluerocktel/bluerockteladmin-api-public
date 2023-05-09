@@ -1,0 +1,24 @@
+_id: req_8a3579ea2a5848528d5bc840ce2581e1
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830540
+created: 1683648830540
+url: "{{ _.base_url }}v1/tickets/14137/read-replies"
+name: v1/tickets/{ticket}/read-replies
+description: Get details of ticket {ticket}
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577025.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

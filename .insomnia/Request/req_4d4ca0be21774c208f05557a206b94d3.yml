@@ -1,0 +1,32 @@
+_id: req_4d4ca0be21774c208f05557a206b94d3
+type: Request
+parentId: fld_772548ea100e47129d303c6fb03bd5db
+modified: 1683648831251
+created: 1683648831251
+url: "{{ _.base_url }}v1/click-to-call/to"
+name: v1/click-to-call/to
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_2e2a45e62f9c4f83bc04c57dc3098e97
+    name: number
+    value: "0782348486"
+    description: ""
+headers:
+  - id: pair_8fc2b4dfb8de4c4fb396254ab521cc6f
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576857.9443
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

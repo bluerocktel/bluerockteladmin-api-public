@@ -1,0 +1,39 @@
+_id: req_891974bc9ef34045a5af8faab7b03c73
+type: Request
+parentId: fld_01c1752dfa304ca8ab68c9a56ef48392
+modified: 1683648830909
+created: 1683648830909
+url: "{{ _.base_url }}v1/recruitment/family-members"
+name: v1/recruitment/family-members
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Jean",
+    	"dob": "2018-08-22",
+    	"genre": "male",
+    	"position": "1st child"
+    }
+parameters:
+  - id: pair_1179b1f89a0649db87087db708e463df
+    name: employer_detail_id
+    value: "2"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

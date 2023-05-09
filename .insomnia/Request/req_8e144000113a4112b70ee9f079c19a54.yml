@@ -1,0 +1,24 @@
+_id: req_8e144000113a4112b70ee9f079c19a54
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830497
+created: 1683648830497
+url: "{{ _.base_url }}v1/tickets/close/1310"
+name: v1/tickets/close/{ticket}
+description: Close a ticket
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576969.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

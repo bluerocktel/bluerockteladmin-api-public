@@ -1,0 +1,26 @@
+_id: req_d935697976524c4880910323776cd630
+type: Request
+parentId: fld_8cb007478b0b4a5992bddb2eab826adb
+modified: 1683648830669
+created: 1683648830669
+url: "{{ base_url }}v1/ticketing/attachments/1"
+name: v1/ticketing/attachments/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: true
+    value: string
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1648702624903
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

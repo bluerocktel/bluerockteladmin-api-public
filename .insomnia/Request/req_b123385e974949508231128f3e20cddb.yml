@@ -1,0 +1,32 @@
+_id: req_b123385e974949508231128f3e20cddb
+type: Request
+parentId: fld_5ec0e2109168490fb818f2fcafc3874e
+modified: 1683648831609
+created: 1683648831609
+url: "{{ _.base_url }}v1/subfamilies/75"
+name: v1/subfamilies/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Lignes VoIP"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f8fb3f6b0c944fdaa5772984d13fe6fd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647228796517.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

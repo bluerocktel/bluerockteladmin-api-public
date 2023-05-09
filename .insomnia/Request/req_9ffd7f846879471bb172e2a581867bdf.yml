@@ -1,0 +1,37 @@
+_id: req_9ffd7f846879471bb172e2a581867bdf
+type: Request
+parentId: fld_954104dbb0484b61b67c19512da2860b
+modified: 1683648830750
+created: 1683648830750
+url: "{{ _.base_url }}v1/ticketing/support-teams/1/members"
+name: v1/ticketing/support-teams/{id}/members
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"users": [
+    		57
+    	]
+    }
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

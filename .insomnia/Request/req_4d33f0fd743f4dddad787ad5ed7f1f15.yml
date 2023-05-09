@@ -1,0 +1,26 @@
+_id: req_4d33f0fd743f4dddad787ad5ed7f1f15
+type: Request
+parentId: fld_8cb007478b0b4a5992bddb2eab826adb
+modified: 1683648830679
+created: 1683648830679
+url: "{{ base_url }}v1/ticketing/attachments/20697"
+name: v1/ticketing/attachments/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Authorization
+    disabled: true
+    value: string
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_6a6e42332ffb46de85bd4fa8f041a265
+type: Request
+parentId: fld_78d8aed3a34c4f62b831d95921fa843d
+modified: 1683648831267
+created: 1683648831267
+url: "{{ _.base_url }}v1/users/1"
+name: v1/users/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_acbd0410dbab43e783bd2c97c1c2f8fb
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576843
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

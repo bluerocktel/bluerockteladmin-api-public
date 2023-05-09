@@ -1,0 +1,36 @@
+_id: req_382f123842b84fde8cd67316ac54b452
+type: Request
+parentId: fld_13122881957d431aab52c5deed95b425
+modified: 1683648831411
+created: 1683648831411
+url: "{{ _.base_url }}v1/bank-details/1967"
+name: v1/bank-details/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"mandateIdentification": "CUS0111-FRPPDE-1234",
+    		"update_files": 1
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_cba53a8f3e81456f8240cfb008dc20dd
+type: Request
+parentId: fld_9c5d407291ae4f60a7b1ebb04b476a89
+modified: 1683648831556
+created: 1683648831556
+url: "{{ _.base_url }}v1/families/20"
+name: v1/families/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "code": "phones"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f8fb3f6b0c944fdaa5772984d13fe6fd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647228796517.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

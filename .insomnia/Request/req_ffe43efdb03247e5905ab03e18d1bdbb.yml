@@ -1,0 +1,28 @@
+_id: req_ffe43efdb03247e5905ab03e18d1bdbb
+type: Request
+parentId: fld_1d34ea9ee684454989ed39cbb313c979
+modified: 1683648831775
+created: 1683648831775
+url: "{{ _.base_url }}v1/pbx3cx-hosts/2"
+name: v1/pbx3cx-hosts/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

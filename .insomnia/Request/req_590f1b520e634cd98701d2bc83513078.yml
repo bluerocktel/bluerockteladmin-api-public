@@ -1,0 +1,24 @@
+_id: req_590f1b520e634cd98701d2bc83513078
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830515
+created: 1683648830515
+url: "{{baseUrl}}/v1/tickets/:ticket"
+name: v1/tickets/{ticket}
+description: Delete ticket {ticket}
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577013.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_c3f35d872de94a27a56b5dcf14d4b084
+type: Request
+parentId: fld_9376f919fcc34ec3b97f55638e3062a5
+modified: 1683648830460
+created: 1683648830460
+url: "{{ _.base_url }}v1/survey-propositions?survey_question_id=49"
+name: v1/survey-propositions
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+         "proposition": "A"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

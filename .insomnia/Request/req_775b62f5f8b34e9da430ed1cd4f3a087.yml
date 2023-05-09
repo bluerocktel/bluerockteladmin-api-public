@@ -1,0 +1,39 @@
+_id: req_775b62f5f8b34e9da430ed1cd4f3a087
+type: Request
+parentId: fld_0270fc255bef497aa0f83af6565cd53c
+modified: 1683648831887
+created: 1683648831887
+url: "{{ _.base_url }}v1/customers/4235/services"
+name: v1/customers/{id}/services
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"services": {
+    		"1": {},
+    		"2": {
+    			"version": "1.1.0"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - id: pair_2263ffd97b63447a887c3c8277d67a9a
+    name: accept
+    value: application/json
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576808.9727
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

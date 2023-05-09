@@ -1,0 +1,49 @@
+_id: req_b8a44fb575044fd79fed7e3527cfa3bd
+type: Request
+parentId: fld_e7869494e8304c7185e59bf940a079e0
+modified: 1683648830884
+created: 1683648830884
+url: "{{ _.base_url }}v1/recruitment/candidate-details/2"
+name: v1/recruitment/candidate-details/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"available": true,
+    	"MonAM": true,
+    	"MonPM": true,
+    	"TueAM": true,
+    	"TuePM": true,
+    	"WedAM": true,
+    	"WedPM": true,
+    	"ThuAM": true,
+    	"ThuPM": true,
+    	"FriAM": true,
+    	"FriPM": true,
+    	"SatAM": true,
+    	"SatPM": true,
+    	"SunAM": true,
+    	"SunPM": true
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_178d6f0f4bd6464aab50cd56fabd9427
+type: Request
+parentId: fld_bc2473cf49604c1faf16d2abadda4d33
+modified: 1683648831004
+created: 1683648831004
+url: "{{ _.base_url }}v1/training/quizzes/3"
+name: v1/training/quizzes/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"active": true,
+    	"lessons": {
+    		"1" : {
+    			"mandatory": true
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

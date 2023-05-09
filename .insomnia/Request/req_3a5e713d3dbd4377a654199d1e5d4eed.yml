@@ -1,0 +1,28 @@
+_id: req_3a5e713d3dbd4377a654199d1e5d4eed
+type: Request
+parentId: fld_0bf48378370b40d28504ca547f5a2b20
+modified: 1683648830765
+created: 1683648830765
+url: "{{ _.base_url }}v1/ticketing/statuses/2"
+name: v1/ticketing/statuses/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

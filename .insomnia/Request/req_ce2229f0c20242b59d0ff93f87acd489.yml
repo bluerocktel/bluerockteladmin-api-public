@@ -1,0 +1,37 @@
+_id: req_ce2229f0c20242b59d0ff93f87acd489
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830537
+created: 1683648830537
+url: "{{ _.base_url }}v1/tickets/search"
+name: v1/tickets/search
+description: Get open tickets
+method: GET
+body: {}
+parameters:
+  - name: filter[assignee_id]
+    value: "34"
+    id: pair_65e9ffc6e8fd480b969d40d49a23c151
+    disabled: true
+  - id: pair_ae2b348e446e48259825dc2a3e0abd13
+    name: filter[open]
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_78441508ce7147ff8066ae1b38de857f
+    name: filter[team_id]
+    value: "1"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577030.4375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

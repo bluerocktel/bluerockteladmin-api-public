@@ -1,0 +1,28 @@
+_id: req_43fe2489e91340828423e09ec5d59a6f
+type: Request
+parentId: fld_b9c6bb7c9d7e4b39abf6251133f2996a
+modified: 1683648831021
+created: 1683648831021
+url: "{{ _.base_url }}v1/training/quiz-groups/7"
+name: v1/training/quiz-groups/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

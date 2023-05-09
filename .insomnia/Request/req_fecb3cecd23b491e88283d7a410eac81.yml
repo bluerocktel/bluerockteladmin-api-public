@@ -1,0 +1,35 @@
+_id: req_fecb3cecd23b491e88283d7a410eac81
+type: Request
+parentId: fld_54fed3771e7c4314a222ff49a02f7eda
+modified: 1683648831719
+created: 1683648831719
+url: "{{ _.base_url }}v1/batches"
+name: v1/batches
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Batch services",
+    	"billingType": 1,
+    	"day": 1,
+    	"forceDay": -1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

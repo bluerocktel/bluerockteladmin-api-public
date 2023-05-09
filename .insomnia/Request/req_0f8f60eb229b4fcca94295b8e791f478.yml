@@ -1,0 +1,28 @@
+_id: req_0f8f60eb229b4fcca94295b8e791f478
+type: Request
+parentId: fld_82c262bee5294e1084c05a803c775a61
+modified: 1683648830306
+created: 1683648830306
+url: "{{ _.base_url }}v1/newsletters/27"
+name: v1/newsletters/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

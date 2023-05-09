@@ -1,0 +1,24 @@
+_id: req_e72b1cfee8e0450d80e8da5cc7e76217
+type: Request
+parentId: fld_7a6d9c3484044a8388fa30b6f37153bf
+modified: 1683648831303
+created: 1683648831303
+url: "{{ _.base_url }}v1/customer-files/2148"
+name: v1/customer-files/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646694577801.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

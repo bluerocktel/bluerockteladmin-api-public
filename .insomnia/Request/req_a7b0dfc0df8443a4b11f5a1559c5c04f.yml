@@ -1,0 +1,34 @@
+_id: req_a7b0dfc0df8443a4b11f5a1559c5c04f
+type: Request
+parentId: fld_b2587509894f405d8c8594fe26f971bd
+modified: 1683648831534
+created: 1683648831534
+url: "{{ _.base_url }}v1/items/1016"
+name: v1/items/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "My old item",
+    	"family_id": 1,
+    	"buyingPriceWithoutTax": 12.50
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f8fb3f6b0c944fdaa5772984d13fe6fd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647228796517.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

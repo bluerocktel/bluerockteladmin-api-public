@@ -1,0 +1,39 @@
+_id: req_09b4a1da5c034ddda7ffc4a6717390ab
+type: Request
+parentId: fld_0b210abea5ab4726af915fe7d1a99aa2
+modified: 1683648831192
+created: 1683648831192
+url: "{{ _.base_url }}v1/training/programs"
+name: v1/training/programs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Dog Grooming bundle",
+    	"excerpt": "From begginer to expert",
+    	"description": "lorem ipsum dolor sit amet",
+    	"audience": "clients",
+    	"free": false,
+    	"price": 799.99,
+    	"buyable": 1,
+    	"courses": [34,35]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

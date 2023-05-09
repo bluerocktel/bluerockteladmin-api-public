@@ -1,0 +1,28 @@
+_id: req_55f028b4f5c84adbb0ac11ba5c9bd123
+type: Request
+parentId: fld_d43bd326b9dc4f35b173e7ad218e1112
+modified: 1683648830397
+created: 1683648830397
+url: "{{ _.base_url }}v1/survey-branches/11"
+name: v1/surveys-branches/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

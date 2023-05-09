@@ -1,0 +1,34 @@
+_id: req_09d5d172a17b482eaa384dbf4f951c86
+type: Request
+parentId: fld_7a6d9c3484044a8388fa30b6f37153bf
+modified: 1683648831298
+created: 1683648831298
+url: "{{ _.base_url }}v1/customer-files"
+name: v1/customer-files
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_003d6c43a51047d5a142400236816ae4
+    name: fileable_type
+    value: customer
+    description: ""
+    disabled: false
+  - id: pair_45657a7b5c17465eb82f92300f0e049f
+    name: fileable_id
+    value: "44"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646716578317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

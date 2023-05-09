@@ -1,0 +1,29 @@
+_id: req_796a753464c642faa42e1561ad299402
+type: Request
+parentId: fld_7357ef54cd0a4fb2be0920e633668c81
+modified: 1683648831649
+created: 1683648831649
+url: "{{ _.base_url }}v1/bundle-initial-items"
+name: v1/bundle-initial-items
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_1ca7ca4454134e269a46d0f43ba73ae5
+    name: bundle_id
+    value: "2"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647444064217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

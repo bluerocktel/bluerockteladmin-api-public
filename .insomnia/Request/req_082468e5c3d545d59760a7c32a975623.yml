@@ -1,0 +1,28 @@
+_id: req_082468e5c3d545d59760a7c32a975623
+type: Request
+parentId: fld_8bd10227b87341598c98d7cc9d7a6535
+modified: 1683648831325
+created: 1683648831325
+url: "{{ _.base_url }}v1/contacts/5160"
+name: v1/contacts/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

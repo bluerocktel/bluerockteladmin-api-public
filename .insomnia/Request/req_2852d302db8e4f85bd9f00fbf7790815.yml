@@ -1,0 +1,36 @@
+_id: req_2852d302db8e4f85bd9f00fbf7790815
+type: Request
+parentId: fld_dc7a18e571c346a4a5dd28309d025ecd
+modified: 1683648830435
+created: 1683648830435
+url: "{{ _.base_url }}v1/survey-questions/49"
+name: v1/survey-questions/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+         "question": "Sur une échelle de 1 à 10, comment noteriez-vous notre service commercial ?",
+         "questionType": "scaleOneToTen"
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

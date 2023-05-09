@@ -1,0 +1,24 @@
+_id: req_5e4e804e58de46959e9f9c514fd9869a
+type: Request
+parentId: fld_5ec0e2109168490fb818f2fcafc3874e
+modified: 1683648831613
+created: 1683648831613
+url: "{{ _.base_url }}v1/subfamilies/75"
+name: v1/subfamilies/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647192945149.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

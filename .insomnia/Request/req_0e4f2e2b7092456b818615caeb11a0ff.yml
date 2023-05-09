@@ -1,0 +1,24 @@
+_id: req_0e4f2e2b7092456b818615caeb11a0ff
+type: Request
+parentId: fld_6f5f031fb47a4da9943d085a51fd6dac
+modified: 1683648831732
+created: 1683648831732
+url: "{{ _.base_url }}v1/languages/8"
+name: v1/languages/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

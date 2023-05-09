@@ -1,0 +1,27 @@
+_id: req_873796d7a2674e8b92addaf2212c4f45
+type: Request
+parentId: fld_0270fc255bef497aa0f83af6565cd53c
+modified: 1683648831881
+created: 1683648831881
+url: "{{ _.base_url }}v1/customer-services/1"
+name: v1/customer-services/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2263ffd97b63447a887c3c8277d67a9a
+    name: accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576808.9844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

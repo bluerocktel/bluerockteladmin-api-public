@@ -1,0 +1,33 @@
+_id: req_1d2cfae6c0364a10a37ae4f92d57875a
+type: Request
+parentId: fld_a8fa210941724a95a4e2c188a8adb27c
+modified: 1683648830817
+created: 1683648830817
+url: "{{ _.base_url }}v1/recruitment/specialities"
+name: v1/recruitment/specialities
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Garde d'animaux",
+    	"code": "GUARD ANI"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

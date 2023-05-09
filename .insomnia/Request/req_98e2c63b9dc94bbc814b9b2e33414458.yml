@@ -1,0 +1,24 @@
+_id: req_98e2c63b9dc94bbc814b9b2e33414458
+type: Request
+parentId: fld_1f227d8ef273425b8f9abdf465dcfbfa
+modified: 1683648831286
+created: 1683648831286
+url: "{{ _.base_url }}v1/customers/5"
+name: v1/customers/{customer}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

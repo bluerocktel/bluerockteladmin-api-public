@@ -1,0 +1,36 @@
+_id: req_2ffa668176e14ee28169277f4b9c8c09
+type: Request
+parentId: fld_46b91c3ccdb54f6db85eacdf29425693
+modified: 1683648831355
+created: 1683648831355
+url: "{{ _.base_url }}v1/notes/147550"
+name: v1/notes/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title": "Départ du gérant",
+    	"body": "Le gérant Mr. Chapon est parti."
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

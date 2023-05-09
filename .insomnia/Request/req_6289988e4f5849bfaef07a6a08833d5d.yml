@@ -1,0 +1,34 @@
+_id: req_6289988e4f5849bfaef07a6a08833d5d
+type: Request
+parentId: fld_954104dbb0484b61b67c19512da2860b
+modified: 1683648830756
+created: 1683648830756
+url: "{{ _.base_url }}v1/ticketing/support-teams/1/members"
+name: v1/ticketing/support-teams/{id}/members
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"users": [
+    		57, 34
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

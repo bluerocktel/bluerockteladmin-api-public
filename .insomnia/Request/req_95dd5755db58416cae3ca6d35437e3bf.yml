@@ -1,0 +1,35 @@
+_id: req_95dd5755db58416cae3ca6d35437e3bf
+type: Request
+parentId: fld_a8fa210941724a95a4e2c188a8adb27c
+modified: 1683648830811
+created: 1683648830811
+url: "{{ _.base_url }}v1/recruitment/specialities/1"
+name: v1/recruitment/specialities/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code": "GUARD ENF"
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_cd284b65e3234847a505f7ff57028263
+type: Request
+parentId: fld_574c01e5cfbd404e9a517afbf099ce23
+modified: 1683648830969
+created: 1683648830969
+url: "{{ _.base_url }}v1/recruitment/interviews/1"
+name: v1/recruitment/interviews/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"status": "not_attended",
+    	"comment": "The candidate did not attend, what a shame !"
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

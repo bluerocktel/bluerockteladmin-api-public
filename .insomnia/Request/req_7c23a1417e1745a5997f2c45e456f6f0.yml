@@ -1,0 +1,46 @@
+_id: req_7c23a1417e1745a5997f2c45e456f6f0
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830504
+created: 1683648830504
+url: "{{ _.base_url }}v1/tickets"
+name: v1/tickets
+description: Store a new ticket
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+      "subject": "Ticket automatically closed test",
+      "body": "This ticket will be closed",
+    	"priority_id": 1,
+    	"ticket_category_id": 1,
+    	"ticket_sub_category_id": 1,
+    	"status_id": 1,
+    	"close": true
+    }
+parameters:
+  - id: pair_7d17d961e8e4426abf730e77011871fc
+    name: ticketable_type
+    value: App\Customer
+    description: ""
+  - id: pair_66e61b1f3e094f9ab2a9d15b73cdd7db
+    name: ticketable_id
+    value: "3142"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c78a65e684d04440ac94b316101c29ea
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577018.7188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_305d784b24b4472bb20614f6b01dde9b
+type: Request
+parentId: fld_23949aa449d74663aa9c2d39857d2810
+modified: 1683648831072
+created: 1683648831072
+url: "{{ _.base_url }}v1/training/quiz-replies/4"
+name: v1/training/quiz-replies/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

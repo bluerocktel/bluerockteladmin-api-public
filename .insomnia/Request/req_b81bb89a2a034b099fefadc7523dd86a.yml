@@ -1,0 +1,75 @@
+_id: req_b81bb89a2a034b099fefadc7523dd86a
+type: Request
+parentId: fld_e7869494e8304c7185e59bf940a079e0
+modified: 1683648830890
+created: 1683648830890
+url: "{{ _.base_url }}v1/recruitment/candidate-details"
+name: v1/recruitment/candidate-details
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"available": true,
+    	"available_at": "2022-08-19",
+    	"salary_before": "1200",
+    	"salary_after": "1400",
+    	"available_for_country": true,
+    	"available_for_abroad": false,
+    	"available_for_housed": false,
+    	"available_for_not_housed": true,
+    	"available_for_full_time": true,
+    	"available_for_part_time": false,
+    	"available_for_weekend": true,
+    	"available_for_extras": true,
+    	"hasAllergy": true,
+    	"allergy": "Pollen",
+    	"level_of_study": "BAC+4",
+    	"diplomas": [
+    		"Numeric Ingeneer"
+    	],
+    	"commuting_informations": [
+    		"5 min de metro richelieu"
+    	],
+    	"hobbies": [
+    		"Karaté",
+    		"Tennis"
+    	],
+    	"profession": "Web artisan",
+    	"MonAM": true,
+    	"MonPM": true,
+    	"TueAM": true,
+    	"TuePM": true,
+    	"WedAM": true,
+    	"WedPM": true,
+    	"ThuAM": true,
+    	"ThuPM": true,
+    	"FriAM": true,
+    	"FriPM": true,
+    	"SatAM": true,
+    	"SatPM": true,
+    	"SunAM": true,
+    	"SunPM": true
+    }
+parameters:
+  - id: pair_72baed3dc4624eb09e84e0016b5f8846
+    name: candidate_id
+    value: "1"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_3fdb67b23d744fd48dc0ed37a985a9d8
+type: Request
+parentId: fld_8cb007478b0b4a5992bddb2eab826adb
+modified: 1683648830682
+created: 1683648830682
+url: "{{ base_url }}v1/ticketing/attachments"
+name: v1/ticketing/attachments
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: attachable_type
+    value: App\Ticket
+  - name: attachable_id
+    value: "13092"
+headers:
+  - name: Authorization
+    disabled: true
+    value: string
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1648702624905
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

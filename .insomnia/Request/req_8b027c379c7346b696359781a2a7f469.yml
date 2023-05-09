@@ -1,0 +1,28 @@
+_id: req_8b027c379c7346b696359781a2a7f469
+type: Request
+parentId: fld_286877e25cf54f6596fa68c8d01e9ea5
+modified: 1683648831236
+created: 1683648831236
+url: "{{ _.base_url }}v1/modules"
+name: v1/modules
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ff5fdd888e384119a74c994366943e83
+    name: Origin
+    value: http://localhost
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_00d3004b9f244a1ba592da51a93262d4
+type: Request
+parentId: fld_8bd10227b87341598c98d7cc9d7a6535
+modified: 1683648831322
+created: 1683648831322
+url: "{{ _.base_url }}v1/contacts?contactable_type=App\\Customer&contactable_id=11"
+name: v1/contacts
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"lastName": "Jean",
+    	"firstName": "Neymar"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576909
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

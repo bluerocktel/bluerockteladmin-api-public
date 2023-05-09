@@ -1,0 +1,46 @@
+_id: req_6a5b1d5a6b1d457d9c47cd003c1b5685
+type: Request
+parentId: fld_7a6d9c3484044a8388fa30b6f37153bf
+modified: 1683648831306
+created: 1683648831306
+url: "{{ _.base_url }}v1/customer-files"
+name: v1/customer-files
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Téléphonie",
+    	"rateLandLine": "1.0000",
+    	"rateMobile": "1.0000",
+    	"rateSpecial": "1.0000",
+    	"rateFax": "1.0000",
+    	"rateInternationalLandLine": "2.0000",
+    	"rateInternationalMobile": "1.4000"
+    }
+parameters:
+  - id: pair_9e15c2d3dc954f419f382ee6fd428c2a
+    name: fileable_type
+    value: customer
+    description: ""
+  - id: pair_83811fc5d608470a99e18c65ea823e7b
+    name: fileable_id
+    value: "44"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1576f41bed584a0e9bf350b449d3f743
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646694577751.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

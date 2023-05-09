@@ -1,0 +1,28 @@
+_id: req_78d75b64357f41309e50a3b49fc7ed9d
+type: Request
+parentId: fld_b9c6bb7c9d7e4b39abf6251133f2996a
+modified: 1683648831017
+created: 1683648831017
+url: "{{ _.base_url }}v1/training/quiz-groups"
+name: v1/training/quiz-groups
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_d78a6802a58545ef910feb0cb1900189
+    name: quiz_id
+    value: "2"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

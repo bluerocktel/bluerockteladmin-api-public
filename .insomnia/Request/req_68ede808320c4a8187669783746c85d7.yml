@@ -1,0 +1,29 @@
+_id: req_68ede808320c4a8187669783746c85d7
+type: Request
+parentId: fld_a5c998b1383a4786b4aff562d53fa518
+modified: 1683648831951
+created: 1683648831951
+url: "{{ _.base_url
+  }}/v1/ovh-cloud-projects/f935a5eca4134b0386ec23007ea6724e/storages"
+name: Get project storages
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_c04325cad0fd49e4813b4eb6b264895d
+    name: config_ovh_id
+    value: "1"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1663596894425.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

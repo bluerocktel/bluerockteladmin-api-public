@@ -1,0 +1,35 @@
+_id: req_0174565bb582471f91435df766b796ad
+type: Request
+parentId: fld_c8e8a051b6ea42098ad6be29558bf1b9
+modified: 1683648831491
+created: 1683648831491
+url: "{{ _.base_url }}v1/sales-proforma?invoice_proforma_id=318"
+name: v1/sales-proforma
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"item_id": 480,
+    	"quantity": 2,
+    	"label": "Vente d'un ipbx",
+    	"discountRate": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4a55ac92ecff4a7cb6b411280171df54
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576847.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

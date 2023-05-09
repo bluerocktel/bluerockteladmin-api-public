@@ -1,0 +1,28 @@
+_id: req_6a5217188f144ccfb06d3add371c17a3
+type: Request
+parentId: fld_e7869494e8304c7185e59bf940a079e0
+modified: 1683648830878
+created: 1683648830878
+url: "{{ _.base_url }}v1/recruitment/candidate-details"
+name: v1/recruitment/candidate-details
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_11637f36909a4b128710f58f98e733c5
+    name: candidate_id
+    value: "8"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

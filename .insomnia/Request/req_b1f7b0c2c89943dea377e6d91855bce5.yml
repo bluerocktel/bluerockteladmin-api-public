@@ -1,0 +1,107 @@
+_id: req_b1f7b0c2c89943dea377e6d91855bce5
+type: Request
+parentId: fld_78d8aed3a34c4f62b831d95921fa843d
+modified: 1683648831263
+created: 1683648831263
+url: "{{ _.base_url }}v1/users"
+name: v1/users
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_4dbba12e360c406e8c9da1c5a0fed596
+    name: filter[term_match]
+    value: Bluerock
+    description: ""
+    disabled: true
+  - id: pair_2975634fe92c4f0e81fdde5fb0e3328e
+    name: filter[name]
+    value: BlueRock
+    description: ""
+    disabled: true
+  - id: pair_c08dcfbb778d43d9a6c0bf10e3237eff
+    name: filter[email]
+    value: bluerocktel.net
+    description: ""
+    disabled: true
+  - id: pair_7841bc0cc96b45ecb6d47c5020187365
+    name: filter[active]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_f24996ccbf6a42c381649b03d54c10fd
+    name: filter[role]
+    value: "20"
+    description: ""
+    disabled: true
+  - id: pair_ae51f756e32a44e0b11d79538ce1fd18
+    name: filter[phone]
+    value: "010230"
+    description: ""
+    disabled: true
+  - id: pair_a1015dce0c8743c0b2a96a983e32a635
+    name: filter[mobilePhone]
+    value: "061020"
+    description: ""
+    disabled: true
+  - id: pair_4031000ed2d945a2834b655f6165f04e
+    name: filter[manager]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_81be4cdfeb28422ba35cd810021198cf
+    name: filter[technicalManager]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_ef1aa760525f4be38dcc8a502ce11c8f
+    name: filter[sales]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_f140140cb07f468d97f6b5d2359c626a
+    name: filter[technical]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_703e4ea330ca4ce9b1ba7f6f86f6a4e1
+    name: filter[supportTeam]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_14e951987f9f4a398195ac498a327272
+    name: filter[salesAdmin]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_fff2e776bce3469cb987fae81019f21f
+    name: filter[admin]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_90fafb7a06e8401fb8c6fc02c668cc05
+    name: filter[businessFinder]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_28dab0883a5745dfb3a3463166eadbb3
+    name: per_page
+    value: "1"
+    description: ""
+headers:
+  - id: pair_31ea03e1107a4c368d32c4f1e099ad04
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+metaSortKey: -1646672576893
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_4be3aea642cf455f98d7a9b26dd2e8e1
+type: Request
+parentId: fld_7a6d9c3484044a8388fa30b6f37153bf
+modified: 1683648831309
+created: 1683648831309
+url: "{{ _.base_url }}v1/customer-files/9998"
+name: v1/customer-files/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rateInternationalLandLine": "2.1000",
+    	"rateInternationalMobile": "1.8000"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1576f41bed584a0e9bf350b449d3f743
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646683577415.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

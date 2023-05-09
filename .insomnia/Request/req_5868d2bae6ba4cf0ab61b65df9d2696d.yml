@@ -1,0 +1,39 @@
+_id: req_5868d2bae6ba4cf0ab61b65df9d2696d
+type: Request
+parentId: fld_42423e5372694809857f716eb56fcb4e
+modified: 1683648830945
+created: 1683648830945
+url: "{{ _.base_url }}v1/recruitment/candidate-pictures"
+name: v1/recruitment/candidate-pictures
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a3ca3ee09e2b477191ab2d091d763e18
+      name: picture
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/tgeorgel/Documents/PHOTO THOMAS (1).png
+parameters:
+  - id: pair_ba6865128bba4edfba6cf99d9110607e
+    name: candidate_id
+    value: "3"
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_21035012df304b729568e67f4b7c6fa0
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576938.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

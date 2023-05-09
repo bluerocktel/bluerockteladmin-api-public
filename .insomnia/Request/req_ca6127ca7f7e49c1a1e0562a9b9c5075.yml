@@ -1,0 +1,24 @@
+_id: req_ca6127ca7f7e49c1a1e0562a9b9c5075
+type: Request
+parentId: fld_ba5aadb477c54ade81fb3aa8fa14fb4c
+modified: 1683648830987
+created: 1683648830987
+url: "{{ _.base_url }}v1/recruitment/exports/customers"
+name: v1/recruitment/exports/{type}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

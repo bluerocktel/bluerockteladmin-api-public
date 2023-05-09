@@ -1,0 +1,43 @@
+_id: req_4e78e5fa5f02406cac3089aaa5138cd0
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830535
+created: 1683648830535
+url: "{{ _.base_url }}v1/tickets/invoicing"
+name: v1/tickets/invoicing
+description: Store a new ticket
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+    	"time": 20,
+    	"reference": "AB123456",
+    	"ticket_date": "2022-09-04",
+    	"contact_id": null
+    }
+parameters:
+  - id: pair_7d17d961e8e4426abf730e77011871fc
+    name: ticketable_type
+    value: App\Customer
+    description: ""
+  - id: pair_66e61b1f3e094f9ab2a9d15b73cdd7db
+    name: ticketable_id
+    value: "317"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c78a65e684d04440ac94b316101c29ea
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577017.5469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

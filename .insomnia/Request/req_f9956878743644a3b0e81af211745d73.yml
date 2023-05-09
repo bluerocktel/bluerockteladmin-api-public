@@ -1,0 +1,83 @@
+_id: req_f9956878743644a3b0e81af211745d73
+type: Request
+parentId: fld_cb998d22a5d8470c8e78cdfce8b92378
+modified: 1683648831849
+created: 1683648831849
+url: "{{ _.base_url }}v1/customer-files/recurrings"
+name: v1/customer-files/recurrings
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_4953352a29084260846f2f967c92d744
+    name: filter[id]
+    value: "2626"
+    description: ""
+    disabled: true
+  - id: pair_003d6c43a51047d5a142400236816ae4
+    name: filter[customer_file_id]
+    value: "2100"
+    description: ""
+    disabled: false
+  - id: pair_6a840d4463644bc3af48c7810b15619b
+    name: filter[item_id]
+    value: "34"
+    description: ""
+    disabled: true
+  - id: pair_ea986690657044d39847acecdd62a67e
+    name: filter[lineKey]
+    value: 2100_u5cr50vrh6yl78fhO1is
+    description: ""
+    disabled: true
+  - id: pair_68f5d86842b5439cb5549521a9a121cd
+    name: filter[paused]
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_5a41b3079857441a95e9e5525597c8fe
+    name: filter[active]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_147055a9ca404ef28d2f605834fc7219
+    name: filter[delivred]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_b6e41dd93b094b87994d605ad73753ff
+    name: filter[billingFrequency]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_0d074ff82db04c3eb40b64c002dfa06d
+    name: filter[quantity]
+    value: ">1,<=2"
+    description: ""
+    disabled: true
+  - id: pair_91cc37f0f3d04f2da3282ddac4a86ac4
+    name: sort
+    value: -updated_at
+    description: ""
+    disabled: true
+  - id: pair_b30fb00143db49b798bccec0c904f3cf
+    name: include
+    value: item,file,sales
+    description: ""
+    disabled: true
+headers:
+  - id: pair_60388adbab9b45cf8032aa1eebed9f4c
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646694577851.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

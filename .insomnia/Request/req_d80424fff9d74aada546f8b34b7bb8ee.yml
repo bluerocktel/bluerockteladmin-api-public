@@ -1,0 +1,39 @@
+_id: req_d80424fff9d74aada546f8b34b7bb8ee
+type: Request
+parentId: fld_574c01e5cfbd404e9a517afbf099ce23
+modified: 1683648830962
+created: 1683648830962
+url: "{{ _.base_url }}v1/recruitment/interviews"
+name: v1/recruitment/interviews
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_7ba79b34794b4df298768e3e7b546039
+    name: customer_id
+    value: "10738"
+    description: ""
+    disabled: false
+  - id: pair_dad9942176e9443498d11ea81021faee
+    name: candidate_id
+    value: "20123"
+    description: ""
+    disabled: true
+  - id: pair_f12dcdd5b6184d45aa5ac06212b63db3
+    name: recruitment_id
+    value: "4"
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

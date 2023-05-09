@@ -1,0 +1,32 @@
+_id: req_78c6eba90b1a46eca9d6494d2c7b5ab8
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830530
+created: 1683648830530
+url: "{{ _.base_url }}v1/tickets/amend/1310"
+name: v1/tickets/amend/{ticket}
+description: Close a ticket
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"time": 1600
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4400643964f440778388d9894341786c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576968.7188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

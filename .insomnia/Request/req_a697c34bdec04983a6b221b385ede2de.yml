@@ -1,0 +1,32 @@
+_id: req_a697c34bdec04983a6b221b385ede2de
+type: Request
+parentId: fld_7357ef54cd0a4fb2be0920e633668c81
+modified: 1683648831660
+created: 1683648831660
+url: "{{ _.base_url }}v1/bundle-initial-items/64"
+name: v1/bundle-initial-items/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"quantity": 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f8fb3f6b0c944fdaa5772984d13fe6fd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647228796517.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

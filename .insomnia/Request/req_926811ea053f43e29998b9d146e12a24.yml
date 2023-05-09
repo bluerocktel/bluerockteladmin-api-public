@@ -1,0 +1,32 @@
+_id: req_926811ea053f43e29998b9d146e12a24
+type: Request
+parentId: fld_ed336177eb0a44b99342d1c9a5aae479
+modified: 1683648830602
+created: 1683648830602
+url: "{{ _.base_url }}v1/ticketing/endTracking"
+name: v1/ticketing/endTracking
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ticket_id": 1310
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_59835051737b4c179a03a7a1c887d90f
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576857.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_436696e6f71242718ebdbbfaa30b454d
+type: Request
+parentId: fld_1d34ea9ee684454989ed39cbb313c979
+modified: 1683648831780
+created: 1683648831780
+url: "{{ _.base_url }}v1/pbx3cx-hosts/2"
+name: v1/pbx3cx-hosts/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"buyable": 0,
+    	"courses": [35]
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

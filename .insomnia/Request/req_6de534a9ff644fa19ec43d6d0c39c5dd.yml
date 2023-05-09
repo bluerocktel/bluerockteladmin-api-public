@@ -1,0 +1,33 @@
+_id: req_6de534a9ff644fa19ec43d6d0c39c5dd
+type: Request
+parentId: fld_4259e83074cc482cbe6d84ad190dbdd9
+modified: 1683648831053
+created: 1683648831053
+url: "{{ _.base_url }}v1/training/quiz-questions?quiz_group_id=8"
+name: v1/training/quiz-questions
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"question": "Les files d'appel peuvent contenir des postes et des groupes",
+    	"questionType": "trueOrFalse"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_fd6369e7fa444f5cb7a0f2c0d702245e
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

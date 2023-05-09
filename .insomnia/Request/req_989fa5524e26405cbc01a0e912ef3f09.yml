@@ -1,0 +1,24 @@
+_id: req_989fa5524e26405cbc01a0e912ef3f09
+type: Request
+parentId: fld_ac76aa5eeec84281b9cba573aecd81de
+modified: 1683648831463
+created: 1683648831463
+url: "{{ _.base_url }}v1/invoices-proforma?customer_id=598"
+name: v1/invoices-proforma
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

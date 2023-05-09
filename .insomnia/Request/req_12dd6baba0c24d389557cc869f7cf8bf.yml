@@ -1,0 +1,28 @@
+_id: req_12dd6baba0c24d389557cc869f7cf8bf
+type: Request
+parentId: fld_1d26f6cb4c6b4f12bb74dd7ffb7c26d6
+modified: 1683648830860
+created: 1683648830860
+url: "{{ _.base_url }}v1/recruitment/employer-details"
+name: v1/recruitment/employer-details
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_11637f36909a4b128710f58f98e733c5
+    name: customer_id
+    value: "4017"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_b5fa9c262e6b4420985a8c072249ae2f
+type: Request
+parentId: fld_a88bc3eaa9e04af0b5d92ef06651df0a
+modified: 1683648830418
+created: 1683648830418
+url: "{{ _.base_url }}v1/survey-groups/14"
+name: v1/survey-groups/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Concernant le support technique"
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

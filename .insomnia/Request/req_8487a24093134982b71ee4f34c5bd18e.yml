@@ -1,0 +1,39 @@
+_id: req_8487a24093134982b71ee4f34c5bd18e
+type: Request
+parentId: fld_770e93fa6bf24ec3aa71162a0b8e2d1e
+modified: 1683648830848
+created: 1683648830848
+url: "{{ _.base_url }}v1/recruitment/recruitments/4"
+name: v1/recruitment/recruitments/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"filters": {
+    		"1": {
+    			"value": true
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

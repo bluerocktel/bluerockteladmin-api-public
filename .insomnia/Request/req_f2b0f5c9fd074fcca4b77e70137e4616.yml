@@ -1,0 +1,24 @@
+_id: req_f2b0f5c9fd074fcca4b77e70137e4616
+type: Request
+parentId: fld_265cef7235a6434684e43332f9b4bd45
+modified: 1683648830587
+created: 1683648830587
+url: "{{ _.base_url }}v1/ticketing/config"
+name: v1/ticketing/config
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

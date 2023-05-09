@@ -1,0 +1,42 @@
+_id: req_7fe7ac39a91e4bca98a6c407c44c75f3
+type: Request
+parentId: fld_cf98fa106fcb4e3d9d4c08466f947f70
+modified: 1683648831378
+created: 1683648831378
+url: "{{ _.base_url }}v1/documents?documentable_type=customer&documentable_id=11"
+name: v1/documents
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: file
+      value: ""
+      id: pair_1ce2124c6e424b6d9e12d6cab1052db7
+      type: file
+      fileName: /home/cgeorgel/Dropbox/1017.pdf
+    - id: pair_0525ae34e15a4dafb0aeb27c43b209f0
+      name: fileDescription
+      value: test
+      description: ""
+    - id: pair_0972e9940c30466a9800d9e1101f595a
+      name: shared
+      value: "1"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

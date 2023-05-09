@@ -1,0 +1,50 @@
+_id: req_48188fd27f7f4c5ba1f78994d7b23292
+type: Request
+parentId: fld_b9c5f379921c4b63acb071ca46049902
+modified: 1683648831800
+created: 1683648831800
+url: "{{ _.base_url }}v1/pbx3cx-audits/2"
+name: v1/pbx3cx-audits/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"server_billing": 1,
+    	"server_name": 1,
+    	"server_sizing": 1,
+    	"server_ssh_keys": 1,
+    	"pbx_language": 1,
+    	"pbx_updates": 1,
+    	"pbx_backups": 1,
+    	"pbx_firewall": 1,
+    	"pbx_in_out_bound_rules": 1,
+    	"pbx_contacts_match": 0.5,
+    	"pbx_users_config": 1,
+    	"pbx_users_permissions": 1,
+    	"pbx_provider_config": 1,
+    	"pbx_emergency_numbers": 0.5,
+    	"pbx_codecs": 1,
+    	"pbx_mails": 0,
+    	"pbx_provision_users": 1,
+    	"pbx_provision_callqueues": 1,
+    	"comment": "some stuff"
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

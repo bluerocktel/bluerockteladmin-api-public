@@ -1,0 +1,21 @@
+_id: req_1b8ffd3131dd42f4b931c444f7702a70
+type: Request
+parentId: fld_8df171ae3f304055a079e2a89fff49bb
+modified: 1683648831935
+created: 1683648831935
+url: "{{ base_url }}/v1/helpers/3cxOpenDestinations"
+name: Returns the 3cx open destinations.
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1650464169727
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

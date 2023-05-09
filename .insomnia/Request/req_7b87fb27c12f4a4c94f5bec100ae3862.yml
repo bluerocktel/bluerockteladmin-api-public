@@ -1,0 +1,38 @@
+_id: req_7b87fb27c12f4a4c94f5bec100ae3862
+type: Request
+parentId: fld_41fc2000d8424eb58d0453f24b77057e
+modified: 1683648831895
+created: 1683648831895
+url: "{{ _.base_url }}v1/fileable-payment-plan"
+name: v1/fileable-payment-plan
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_4439853b75d34f6e9a6ad635cbab1aca
+    name: fileable_type
+    value: App\Customer
+    description: ""
+    disabled: false
+  - id: pair_cd7934756b624e36a4f6fdd871ebb77f
+    name: fileable_id
+    value: "4235"
+    description: ""
+    disabled: false
+headers:
+  - id: pair_fbe220f420c74f30abdfe58f328b7a21
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646694577801.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

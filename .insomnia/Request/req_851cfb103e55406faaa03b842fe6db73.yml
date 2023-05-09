@@ -1,0 +1,24 @@
+_id: req_851cfb103e55406faaa03b842fe6db73
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830495
+created: 1683648830495
+url: "{{baseUrl}}/v1/tickets/free/:ticket"
+name: v1/tickets/free/{ticket}
+description: Free a ticket
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576977.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

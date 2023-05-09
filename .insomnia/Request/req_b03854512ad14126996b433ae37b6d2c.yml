@@ -1,0 +1,68 @@
+_id: req_b03854512ad14126996b433ae37b6d2c
+type: Request
+parentId: fld_b2587509894f405d8c8594fe26f971bd
+modified: 1683648831523
+created: 1683648831523
+url: "{{ _.base_url }}v1/items"
+name: v1/items
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ade6747b8a4d40898f40f3bb6ff2a1f7
+    name: filter[internalReference]
+    value: EP100
+    description: ""
+    disabled: true
+  - id: pair_9a0ff85f62be4ddebc678bdb6ea60d73
+    name: filter[internalReferenceExact]
+    value: EP1000516
+    description: ""
+    disabled: true
+  - id: pair_4aec582b97a341c7a23a188f42afaf99
+    name: filter[id]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_bf1982bc196c4f14a1cb245904f1f6be
+    name: filter[family_id]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_a4ddaceee32548feab7c8f7b59fcf660
+    name: filter[subfamily_id]
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_a5f1d5f1c45e4f94b6162eae68a64f34
+    name: filter[activeForInitialBilling]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_f7bfd2996971475bbff242448a7217d7
+    name: filter[activeForRecurring]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_dc0b0d7710384df09eadcdd655d28b81
+    name: filter[BillingactiveForLicences]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_8251107ac6d0471eabb46256abf31715
+    name: filter[term_match]
+    value: Bluetooth
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647444064217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_39d7e56e1ebf4638b8acfffa706fc029
+type: Request
+parentId: fld_f8548db431b24f6aaf67a20e4acf64eb
+modified: 1683648830294
+created: 1683648830294
+url: "{{ _.base_url }}login"
+name: /login
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_d08d7dc190064d55ba929ea400dd89fc
+    name: email
+    value: "{{ _.email }}"
+    description: ""
+  - id: pair_956cc0ebeb724d109ff6c598bed33f8a
+    name: password
+    value: "{{ _.password }}"
+    description: ""
+headers:
+  - id: pair_83056555b18845249b4c0265c45e5909
+    name: Accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646672576455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

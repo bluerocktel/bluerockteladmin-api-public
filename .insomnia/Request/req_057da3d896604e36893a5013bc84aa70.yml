@@ -1,0 +1,54 @@
+_id: req_057da3d896604e36893a5013bc84aa70
+type: Request
+parentId: fld_526b229d65f64da3bdb9e8f390a47ebb
+modified: 1683648830796
+created: 1683648830796
+url: "{{ _.base_url }}v1/recruitment/candidates"
+name: v1/recruitment/candidates
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"active": true,
+    	"civility": 1,
+    	"marital_status_id": 1,
+    	"first_name": "Thomas",
+    	"last_name": "GEORGEL",
+    	"email": "thomas@blueorocktel.com",
+    	"mobile_phone": "0782348484",
+    	"address1": "12 grafton st.",
+    	"country_code": "FR",
+    	"postal_code": 83210,
+    	"dob": "1998-08-18",
+    	"ssn": "01230202020891",
+    	"ssn_special": false,
+    	"number_of_children": 2,
+    	"comment": "super nice guy !",
+    	"specialities": [
+    		1
+    	],
+    	"filters": {
+    		"2": {
+    			"value": true
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

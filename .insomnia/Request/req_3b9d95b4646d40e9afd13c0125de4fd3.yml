@@ -1,0 +1,38 @@
+_id: req_3b9d95b4646d40e9afd13c0125de4fd3
+type: Request
+parentId: fld_13122881957d431aab52c5deed95b425
+modified: 1683648831417
+created: 1683648831417
+url: "{{ _.base_url }}v1/bank-details?fileable_type=App\\Customer&fileable_id=11"
+name: v1/bank-details
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"iban": "FR76 1650 1000 7000 0022 2625 678",
+    		"bic": "AGRIFRPP123",
+    		"DtOfSgntr": "13/09/2021",
+    		"mandateIdentification": "Cus0111_fjapneu",
+    		"active": 1,
+    		"forbidden": 0,
+    		"update_files": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

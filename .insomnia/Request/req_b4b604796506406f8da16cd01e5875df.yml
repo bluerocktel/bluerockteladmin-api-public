@@ -1,0 +1,26 @@
+_id: req_b4b604796506406f8da16cd01e5875df
+type: Request
+parentId: fld_ada9cd2edc3148f392bded06f6552ef8
+modified: 1683648831442
+created: 1683648831442
+url: "{{ _.base_url
+  }}v1/customer-information-collection/6HUISURWYF7ZXIJRDHnPxtJJr/close"
+name: v1/customer-information-collection/{token}/close
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2263ffd97b63447a887c3c8277d67a9a
+    name: accept
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1646672576708.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

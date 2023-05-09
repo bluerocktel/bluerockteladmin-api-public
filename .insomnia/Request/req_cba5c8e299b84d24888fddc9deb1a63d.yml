@@ -1,0 +1,24 @@
+_id: req_cba5c8e299b84d24888fddc9deb1a63d
+type: Request
+parentId: fld_368f2dbc5a29434ca625d6e78315a3e8
+modified: 1683648830362
+created: 1683648830362
+url: "{{ _.base_url }}v1/newsletter-campaigns"
+name: v1/newsletter-campaigns
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

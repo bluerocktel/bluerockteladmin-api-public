@@ -1,0 +1,28 @@
+_id: req_080e6bfbb117482bb93d8aa37492ea40
+type: Request
+parentId: fld_42423e5372694809857f716eb56fcb4e
+modified: 1683648830941
+created: 1683648830941
+url: "{{ _.base_url }}v1/recruitment/candidate-pictures"
+name: v1/recruitment/candidate-pictures
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_ba6865128bba4edfba6cf99d9110607e
+    name: candidate_id
+    value: "6"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

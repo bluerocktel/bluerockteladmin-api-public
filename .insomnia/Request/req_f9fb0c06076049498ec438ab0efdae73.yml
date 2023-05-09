@@ -1,0 +1,26 @@
+_id: req_f9fb0c06076049498ec438ab0efdae73
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830507
+created: 1683648830507
+url: "{{ _.base_url }}v1/tickets/8500/customer"
+name: v1/tickets/{ticket}/customer
+description: 'Get the customer linked to a ticket, knowing that the "ticketable"
+  is not always the customer : could be a customer file, a recurring or ponctual
+  service, a host...'
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576988.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

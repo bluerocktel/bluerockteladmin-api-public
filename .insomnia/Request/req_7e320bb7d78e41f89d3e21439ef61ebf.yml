@@ -1,0 +1,24 @@
+_id: req_7e320bb7d78e41f89d3e21439ef61ebf
+type: Request
+parentId: fld_13122881957d431aab52c5deed95b425
+modified: 1683648831404
+created: 1683648831404
+url: "{{ _.base_url }}v1/bank-details?fileable_type=App\\Customer&fileable_id=11"
+name: v1/bank-details
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

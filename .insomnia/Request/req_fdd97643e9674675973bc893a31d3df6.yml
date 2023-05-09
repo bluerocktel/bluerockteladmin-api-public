@@ -1,0 +1,33 @@
+_id: req_fdd97643e9674675973bc893a31d3df6
+type: Request
+parentId: fld_9c5d407291ae4f60a7b1ebb04b476a89
+modified: 1683648831550
+created: 1683648831550
+url: "{{ _.base_url }}v1/families/13"
+name: v1/families/{id}
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_8da7d8fe325f420ba96cf29ac79b4255
+    name: include
+    value: items,subfamilies
+    description: ""
+    disabled: true
+  - id: pair_75b580d654544ecfa0093380c90b3cb6
+    name: include
+    value: subfamilies
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647444064167
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

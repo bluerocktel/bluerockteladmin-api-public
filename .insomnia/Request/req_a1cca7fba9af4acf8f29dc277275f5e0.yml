@@ -1,0 +1,36 @@
+_id: req_a1cca7fba9af4acf8f29dc277275f5e0
+type: Request
+parentId: fld_2d20f4f586fd4f06b2b5455c47112955
+modified: 1683648831860
+created: 1683648831860
+url: "{{ _.base_url }}v1/customer-files/licences"
+name: v1/customer-files/licences
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customer_file_id": 3349,
+    	"item_id": 1,
+    	"quantity": 2,
+    	"activationDate": "2023-01-03",
+    	"renewalDate": "2024-01-02"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1576f41bed584a0e9bf350b449d3f743
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646694577751.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_43eee85f86794875bda4079ffd5b9011
+type: Request
+parentId: fld_b94a415beeda4425952bc53d0d71fbe7
+modified: 1683648831763
+created: 1683648831763
+url: "{{ _.base_url }}v1/information-collections/providers-3cx"
+name: v1/information-collections/providers-3cx
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2263ffd97b63447a887c3c8277d67a9a
+    name: accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576683.7422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_8fae6dd875c44820882d97b248284589
+type: Request
+parentId: fld_8bd10227b87341598c98d7cc9d7a6535
+modified: 1683648831331
+created: 1683648831331
+url: "{{ base_url }}v1/contacts/7093"
+name: v1/contacts/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576934
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

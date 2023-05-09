@@ -1,0 +1,36 @@
+_id: req_f838b360c10c479e8c44f439dec01023
+type: Request
+parentId: fld_b06b88845aa14d0f8a377eb644e1e150
+modified: 1683648831105
+created: 1683648831105
+url: "{{ _.base_url }}v1/training/lessons/1"
+name: v1/training/lessons/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order": 1,
+    	"title": "Chapter 1 : what is grooming ?"
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

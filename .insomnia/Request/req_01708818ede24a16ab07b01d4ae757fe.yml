@@ -1,0 +1,24 @@
+_id: req_01708818ede24a16ab07b01d4ae757fe
+type: Request
+parentId: fld_dc7a18e571c346a4a5dd28309d025ecd
+modified: 1683648830437
+created: 1683648830437
+url: "{{ _.base_url }}v1/survey-questions/49"
+name: v1/survey-questions/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576915
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

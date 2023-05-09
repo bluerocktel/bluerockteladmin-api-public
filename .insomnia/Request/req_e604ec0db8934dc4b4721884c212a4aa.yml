@@ -1,0 +1,24 @@
+_id: req_e604ec0db8934dc4b4721884c212a4aa
+type: Request
+parentId: fld_a7651cc2daf44ee492b28a9300086b34
+modified: 1683648831682
+created: 1683648831682
+url: "{{ _.base_url }}v1/organisations/1"
+name: v1/organisations/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576857.9219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

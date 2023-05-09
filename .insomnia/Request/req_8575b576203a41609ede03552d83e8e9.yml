@@ -1,0 +1,29 @@
+_id: req_8575b576203a41609ede03552d83e8e9
+type: Request
+parentId: fld_1f227d8ef273425b8f9abdf465dcfbfa
+modified: 1683648831292
+created: 1683648831292
+url: "{{ _.base_url }}v1/fileables/number/0033628773862"
+name: v1/fileable/number/{number}
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f9f97d3fe324449fbf9770c8143dbf34
+    name: term
+    value: office
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576723
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

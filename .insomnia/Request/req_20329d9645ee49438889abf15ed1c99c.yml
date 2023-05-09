@@ -1,0 +1,28 @@
+_id: req_20329d9645ee49438889abf15ed1c99c
+type: Request
+parentId: fld_574c01e5cfbd404e9a517afbf099ce23
+modified: 1683648830966
+created: 1683648830966
+url: "{{ _.base_url }}v1/recruitment/interviews/1"
+name: v1/recruitment/interviews/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

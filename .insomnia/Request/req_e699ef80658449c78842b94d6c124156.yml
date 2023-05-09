@@ -1,0 +1,37 @@
+_id: req_e699ef80658449c78842b94d6c124156
+type: Request
+parentId: fld_1024b6c7ae664e02b9954c2d669004f3
+modified: 1683648831219
+created: 1683648831219
+url: "{{ _.base_url }}v1/training/courses/34/students"
+name: v1/training/courses/{id}/students
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"contacts": [
+    		2, 1
+    	]
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

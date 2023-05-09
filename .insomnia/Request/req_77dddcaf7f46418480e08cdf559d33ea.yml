@@ -1,0 +1,60 @@
+_id: req_77dddcaf7f46418480e08cdf559d33ea
+type: Request
+parentId: fld_1957adc639ed4e1daf74fce5a91d5667
+modified: 1683648831911
+created: 1683648831911
+url: "{{ _.base_url }}v1/prospects"
+name: v1/prospects
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "BlueRockTEL 5",
+      "brand_id": "1",
+      "representative_id": "1",
+      "accountsReference": null,
+      "brand": null,
+      "registrationNumber": null,
+      "taxRegistrationNumber": null,
+      "type": null,
+      "capital":null,
+      "activityCode": null,
+      "sector_id": null,
+      "origin_id": null,
+      "mainAddressLine1": "Hermitage House",
+      "mainAddressLine2": "7-9 Sandford Road",
+      "mainAddressPostalCode": "D06",
+      "mainAddressCity": "Dublin",
+      "mainAddressCountry": "IRELAND",
+      "website": "https://bluerocktel.com",
+      "active": true,
+      "isReseller": false,
+      "resellerLevel": 1,
+      "language_id": 1,
+      "chargeVAT": true,
+      "applyVATAutoReverseOperators": false,
+      "language": null,
+      "comment": "Customer Test",
+      "mergeInvoices": false,
+      "onCallDuty": false,
+      "vip": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576946.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

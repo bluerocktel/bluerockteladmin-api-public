@@ -1,0 +1,63 @@
+_id: req_bae63302e34a46b6af8091d1a8a9b05d
+type: Request
+parentId: fld_2a3339a8f6ca45ca92802ced43e06019
+modified: 1683648831815
+created: 1683648831815
+url: "{{ _.base_url }}v1/customer-files/initials"
+name: v1/customer-files/initials
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_003d6c43a51047d5a142400236816ae4
+    name: filter[customer_file_id]
+    value: "2101"
+    description: ""
+    disabled: false
+  - id: pair_0d074ff82db04c3eb40b64c002dfa06d
+    name: filter[quantity]
+    value: ">=1, <3"
+    description: ""
+    disabled: true
+  - id: pair_ea986690657044d39847acecdd62a67e
+    name: filter[lineKey]
+    value: 2101_q4xu93gim8bw04vxW2gb
+    description: ""
+    disabled: true
+  - id: pair_6a840d4463644bc3af48c7810b15619b
+    name: filter[invoice_id]
+    value: "199"
+    description: ""
+    disabled: true
+  - id: pair_49b0d3dc587a42dd8b2d39faba19ee20
+    name: filter[invoiced]
+    value: "true"
+    description: ""
+    disabled: true
+  - id: pair_91cc37f0f3d04f2da3282ddac4a86ac4
+    name: sort
+    value: -buyingPriceWithoutTax
+    description: ""
+    disabled: true
+  - id: pair_3ff52ab3e8e141edbed2c0ea34e5bb72
+    name: include
+    value: item,file,invoice
+    description: ""
+    disabled: true
+headers:
+  - id: pair_60388adbab9b45cf8032aa1eebed9f4c
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646716578317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

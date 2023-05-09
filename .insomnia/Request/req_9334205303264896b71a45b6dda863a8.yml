@@ -1,0 +1,24 @@
+_id: req_9334205303264896b71a45b6dda863a8
+type: Request
+parentId: fld_a88bc3eaa9e04af0b5d92ef06651df0a
+modified: 1683648830411
+created: 1683648830411
+url: "{{ _.base_url }}v1/survey-groups?survey_branch_id=11"
+name: v1/survey-groups
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

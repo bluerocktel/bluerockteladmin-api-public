@@ -1,0 +1,24 @@
+_id: req_477b6c730448447aa872870768e00770
+type: Request
+parentId: fld_46b91c3ccdb54f6db85eacdf29425693
+modified: 1683648831347
+created: 1683648831347
+url: "{{ _.base_url }}v1/notes?noteable_type=App\\Customer&noteable_id=11"
+name: v1/notes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

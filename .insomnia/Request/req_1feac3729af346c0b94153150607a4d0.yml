@@ -1,0 +1,24 @@
+_id: req_1feac3729af346c0b94153150607a4d0
+type: Request
+parentId: fld_b2587509894f405d8c8594fe26f971bd
+modified: 1683648831541
+created: 1683648831541
+url: "{{ _.base_url }}v1/items/internalReference/EP1000516"
+name: v1/items/internalReference/{internalReference}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647372281710.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

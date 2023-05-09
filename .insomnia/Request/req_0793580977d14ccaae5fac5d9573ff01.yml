@@ -1,0 +1,45 @@
+_id: req_0793580977d14ccaae5fac5d9573ff01
+type: Request
+parentId: fld_1d26f6cb4c6b4f12bb74dd7ffb7c26d6
+modified: 1683648830873
+created: 1683648830873
+url: "{{ _.base_url }}v1/recruitment/employer-details"
+name: v1/recruitment/employer-details
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"family_composition": "3 enfants",
+    	"family_informations": "Famille recomposée",
+    	"habitation_type": "Appartement",
+    	"habitation_floor": "2ème",
+    	"habitation_floor_area": "45m2",
+    	"habitation_number_of_rooms": "3",
+    	"habitation_door_code": "",
+    	"habitation_key": "",
+    	"habitation_interphone": "",
+    	"habitation_other_informations": ""
+    }
+parameters:
+  - id: pair_72baed3dc4624eb09e84e0016b5f8846
+    name: customer_id
+    value: "4017"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_96fd8cbbda3b44f7b49900685dcbe422
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576890
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

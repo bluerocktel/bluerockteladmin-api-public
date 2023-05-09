@@ -1,0 +1,24 @@
+_id: req_dfc01c7a95ea4dbabae1a14f1ddc2ffb
+type: Request
+parentId: fld_d43bd326b9dc4f35b173e7ad218e1112
+modified: 1683648830395
+created: 1683648830395
+url: "{{ _.base_url }}v1/survey-branches?survey_id=12"
+name: v1/survey-branches
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

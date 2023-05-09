@@ -1,0 +1,34 @@
+_id: req_751e3c11d0e944cdae071243156276d5
+type: Request
+parentId: fld_770e93fa6bf24ec3aa71162a0b8e2d1e
+modified: 1683648830843
+created: 1683648830843
+url: "{{ _.base_url }}v1/recruitment/recruitments"
+name: v1/recruitment/recruitments
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_dfc3631d84b74bd398b75805315694cc
+    name: customer_id
+    value: "4017"
+    description: ""
+    disabled: true
+  - id: pair_887d0bc8043c4bb7ae0cb209e0b58143
+    name: customer_id
+    value: "10000"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

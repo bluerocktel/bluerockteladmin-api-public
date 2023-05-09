@@ -1,0 +1,33 @@
+_id: req_7aeb506b6438401f99115170ab4aae40
+type: Request
+parentId: fld_fc9c7667c2414867b057f36ea6017338
+modified: 1683648831637
+created: 1683648831637
+url: "{{ _.base_url }}v1/bundles"
+name: v1/bundles
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Bundle VoIP",
+    	"comment": "<p>My new bundle</p>"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f8fb3f6b0c944fdaa5772984d13fe6fd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647300499254.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,31 @@
+_id: req_f977a7340fb9448fb49cda1668def44d
+type: Request
+parentId: fld_b94a415beeda4425952bc53d0d71fbe7
+modified: 1683648831750
+created: 1683648831750
+url: "{{ _.base_url }}v1/information-collections"
+name: v1/information-collections
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_5e5dab2068654b4a981858cd5fb0e748
+    name: customer_file_id
+    value: "7119"
+    description: ""
+headers:
+  - id: pair_2263ffd97b63447a887c3c8277d67a9a
+    name: accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576758.9844
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

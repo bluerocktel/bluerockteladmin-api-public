@@ -1,0 +1,28 @@
+_id: req_9932c6a2e74b41e68c6822901db7ba6a
+type: Request
+parentId: fld_ec808bcd29b3410c9dde4cd8f0ad83fb
+modified: 1683648831085
+created: 1683648831085
+url: "{{ _.base_url }}v1/training/courses/7"
+name: v1/training/courses/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_dcf149266a7b44d1ba61f982874ae1fe
+type: Request
+parentId: fld_fef946b6ade2475ba2f1a50d7b4c58ac
+modified: 1683648830524
+created: 1683648830524
+url: "{{ _.base_url }}v1/tickets-insights?start=01/10/2020&end=31/03/2021"
+name: v1/tickets/insights
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672577000.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_4ab97d0e6268495bb6556ec64c0928ff
+type: Request
+parentId: fld_7a9247a834154e8c97d2c6b450abe1cf
+modified: 1683648830652
+created: 1683648830652
+url: "{{ _.base_url }}v1/tickets-insights/yearly-averages"
+name: v1/tickets-insights/yearly-averages
+description: Get details of ticket {ticket}
+method: GET
+body: {}
+parameters:
+  - id: pair_8596180c4bf14f41b9bf74b4d1408f79
+    name: year
+    value: "2021"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672577025.0469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

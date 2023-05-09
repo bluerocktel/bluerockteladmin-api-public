@@ -1,0 +1,28 @@
+_id: req_e113996be7bd4d25ba4fdab5f7882249
+type: Request
+parentId: fld_a88bc3eaa9e04af0b5d92ef06651df0a
+modified: 1683648830414
+created: 1683648830414
+url: "{{ _.base_url }}v1/survey-groups/11"
+name: v1/survey-groups/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

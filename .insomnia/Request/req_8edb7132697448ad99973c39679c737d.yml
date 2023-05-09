@@ -1,0 +1,32 @@
+_id: req_8edb7132697448ad99973c39679c737d
+type: Request
+parentId: fld_b2587509894f405d8c8594fe26f971bd
+modified: 1683648831530
+created: 1683648831530
+url: "{{ _.base_url }}v1/items"
+name: v1/items
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"description": "My new item"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f8fb3f6b0c944fdaa5772984d13fe6fd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647300499254.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_ab05aadc34a543be95b88f2c51a39c17
+type: Request
+parentId: fld_f42f579c98cc4cf48de3c06afa50ba22
+modified: 1683648830330
+created: 1683648830330
+url: "{{ _.base_url }}v1/newsletter-lists/4"
+name: v1/newsletter-lists/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

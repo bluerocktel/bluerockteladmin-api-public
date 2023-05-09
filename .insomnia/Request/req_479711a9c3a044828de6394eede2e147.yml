@@ -1,0 +1,44 @@
+_id: req_479711a9c3a044828de6394eede2e147
+type: Request
+parentId: fld_1f227d8ef273425b8f9abdf465dcfbfa
+modified: 1683648831284
+created: 1683648831284
+url: "{{ _.base_url }}v1/customers/11"
+name: v1/customers/{customer}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"name": "Testing 2",
+    	"taxRegistrationNumber": 123456123456,
+    	"mainContactFirstName": "Thomas",
+    	"mainContactLastName": "Test",
+    	"phone": "0102030405",
+    	"mobilePhone": "0602030405",
+    	"emailAddress": "test@example.com",
+    	"mainAddressLine1": "12 rue des champs",
+    	"mainAddressLine2": "",
+    	"mainAddressPostalCode": 83210,
+    	"mainAddressCity": "Sollies pont",
+    	"mainAddressCountry": "France",
+    	"comment": "TESTTVYICBJKE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

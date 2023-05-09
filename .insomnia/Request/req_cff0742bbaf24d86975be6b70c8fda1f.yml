@@ -1,0 +1,32 @@
+_id: req_cff0742bbaf24d86975be6b70c8fda1f
+type: Request
+parentId: fld_fc9c7667c2414867b057f36ea6017338
+modified: 1683648831640
+created: 1683648831640
+url: "{{ _.base_url }}v1/bundles/14"
+name: v1/bundles/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Bundle téléphonie VoIP"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f8fb3f6b0c944fdaa5772984d13fe6fd
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1647228796517.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

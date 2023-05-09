@@ -1,0 +1,36 @@
+_id: req_a6872d27cca4420aa8d545fe7a9899aa
+type: Request
+parentId: fld_cf98fa106fcb4e3d9d4c08466f947f70
+modified: 1683648831371
+created: 1683648831371
+url: "{{ _.base_url }}v1/documents/6248"
+name: v1/documents/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"fileDescription": "External invoice #123",
+    	"shared": false
+    }
+parameters: []
+headers:
+  - name: ""
+    value: <string>
+    id: pair_201e092ab0fc4c03b4e1afc1f2a50b7f
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

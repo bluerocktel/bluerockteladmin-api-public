@@ -1,0 +1,54 @@
+_id: req_70370bed69d542c58cf94813de285700
+type: Request
+parentId: fld_1957adc639ed4e1daf74fce5a91d5667
+modified: 1683648831908
+created: 1683648831908
+url: "{{ _.base_url }}v1/prospects"
+name: v1/prospects
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b8a0b3e196cb4a028ae414a704f578ed
+    name: per_page
+    value: "20"
+    description: ""
+    disabled: true
+  - id: pair_f9f97d3fe324449fbf9770c8143dbf34
+    name: page
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_cca991595b4741cc9a91878fad9d6e3b
+    name: filter[id]
+    value: "1201"
+    description: ""
+    disabled: true
+  - id: pair_edbdd686ee9e473cae2ebd89a2323009
+    name: filter[name]
+    value: Mouans
+    description: ""
+    disabled: true
+  - id: pair_4660d783fee449dd87f725fb7be05935
+    name: filter[term_match]
+    value: PR0022
+    description: ""
+    disabled: true
+  - id: pair_6949f36fb1a84a8b8498da9ed00ce141
+    name: sort
+    value: -created_at
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576959
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_163a90690d324a0b920db9b02d52acf8
+type: Request
+parentId: fld_1957adc639ed4e1daf74fce5a91d5667
+modified: 1683648831918
+created: 1683648831918
+url: "{{ _.base_url }}v1/prospects/1202"
+name: v1/prospects/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"mainContactFirstName": "Thomas",
+    	"mainContactLastName": "Leroi"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2515bdf290354c9b95b71a909a6704cb
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

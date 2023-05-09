@@ -1,0 +1,33 @@
+_id: req_2a46644936d848f0b3e2b23c9ee3ad4c
+type: Request
+parentId: fld_a7651cc2daf44ee492b28a9300086b34
+modified: 1683648831685
+created: 1683648831685
+url: "{{ _.base_url }}v1/organisations/1"
+name: v1/organisations/{id}
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Encom",
+    	"newsletterUnsubscribeTitle": "Se désinscrire"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_72d5b987976e495bb8aa2c599b7f3256
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576857.7422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

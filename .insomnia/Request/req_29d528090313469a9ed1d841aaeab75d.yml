@@ -1,0 +1,24 @@
+_id: req_29d528090313469a9ed1d841aaeab75d
+type: Request
+parentId: fld_9b3a9977fb2a47699b256beb24095ef1
+modified: 1683648830688
+created: 1683648830688
+url: "{{ _.base_url }}v1/ticketing/support-teams"
+name: v1/ticketing/support-teams
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576859
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

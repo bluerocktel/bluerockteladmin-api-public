@@ -1,0 +1,51 @@
+_id: req_0988f801356643ddb9c8a79aae8c9b34
+type: Request
+parentId: fld_41fc2000d8424eb58d0453f24b77057e
+modified: 1683648831898
+created: 1683648831898
+url: "{{ _.base_url }}v1/fileable-payment-plan"
+name: v1/fileable-payment-plan
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"payment_method_id": 7,
+    	"delay_in_days": null,
+    	"end_of_month": false,
+    	"iban": "FR6130002056670000123451U96",
+    	"bic": "CRLYFRPP",
+    	"referenced_email_address_for_payment": null,
+    	"customer_reference_for_payment": null,
+    	"free_information": null
+    }
+parameters:
+  - id: pair_cfa226ea5ede4359bad834c8a11f04c3
+    name: fileable_type
+    value: App\Customer
+    description: ""
+  - id: pair_cca904728cf346e8b42706b2dedd0ebb
+    name: fileable_id
+    value: "4235"
+    description: ""
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_1576f41bed584a0e9bf350b449d3f743
+  - id: pair_ce126b42512349069c4f7fd3dd54d223
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646694577751.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

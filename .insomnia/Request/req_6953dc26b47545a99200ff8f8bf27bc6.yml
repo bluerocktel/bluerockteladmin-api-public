@@ -1,0 +1,24 @@
+_id: req_6953dc26b47545a99200ff8f8bf27bc6
+type: Request
+parentId: fld_772548ea100e47129d303c6fb03bd5db
+modified: 1683648831253
+created: 1683648831253
+url: "{{ _.base_url }}v1/getters/support-contracts-types"
+name: v1/getters/support-contracts-types
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576857.9556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_7bef9276e1254312a756fc63edc8abee
+type: Request
+parentId: fld_7a6d9c3484044a8388fa30b6f37153bf
+modified: 1683648831312
+created: 1683648831312
+url: "{{ _.base_url }}v1/customer-files/9998"
+name: v1/customer-files/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646678077247.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

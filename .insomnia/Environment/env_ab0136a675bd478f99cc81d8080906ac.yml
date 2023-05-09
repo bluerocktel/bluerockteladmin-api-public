@@ -1,0 +1,26 @@
+_id: env_ab0136a675bd478f99cc81d8080906ac
+type: Environment
+parentId: env_50782f6d1697473a81e34f0f5dd63aa7
+modified: 1683648872910
+created: 1683648829623
+name: BlueRockTEL Demo
+data:
+  base_url: https://telecom0558-admin.bluerocktel.net/api
+  email: demo@bluerocktel.com
+  password: secret
+  token: "{% response 'body', 'req_2d1d5ebd7bed45daa779e8a88c420e5b',
+    'b64::JC50b2tlbg==::46b', 'always', 60 %}"
+  DEFAULT_HEADERS:
+    Accept: "*/*"
+dataPropertyOrder:
+  "&":
+    - base_url
+    - email
+    - password
+    - token
+    - DEFAULT_HEADERS
+  "&~|DEFAULT_HEADERS":
+    - Accept
+color: null
+isPrivate: false
+metaSortKey: 2

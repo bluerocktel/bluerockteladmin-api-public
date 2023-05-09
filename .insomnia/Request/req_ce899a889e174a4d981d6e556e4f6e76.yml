@@ -1,0 +1,28 @@
+_id: req_ce899a889e174a4d981d6e556e4f6e76
+type: Request
+parentId: fld_772548ea100e47129d303c6fb03bd5db
+modified: 1683648831256
+created: 1683648831256
+url: "{{ _.base_url }}v1/click-to-call/enabled"
+name: v1/click-to-call/enabled
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_8fc2b4dfb8de4c4fb396254ab521cc6f
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576857.933
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

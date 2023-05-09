@@ -1,0 +1,28 @@
+_id: req_a8037d9bb8734b94927dd989f4c71154
+type: Request
+parentId: fld_9157da2125fe43e5b31be009bf57e993
+modified: 1683648830469
+created: 1683648830469
+url: "{{ _.base_url }}v1/survey-records/11"
+name: v1/survey-records/{id}
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_1dfc376755f745d397cdc98497685bca
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

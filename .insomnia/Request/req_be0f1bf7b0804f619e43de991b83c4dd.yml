@@ -1,0 +1,33 @@
+_id: req_be0f1bf7b0804f619e43de991b83c4dd
+type: Request
+parentId: fld_ac76aa5eeec84281b9cba573aecd81de
+modified: 1683648831479
+created: 1683648831479
+url: "{{ _.base_url }}v1/invoices-proforma/318/publish"
+name: v1/invoices-proforma/{id}/publish
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"paymentTerm": "12/12/2022",
+    	"paymentMethod_id": 7
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_305bcd0d2387432a8c8a3fde2497971f
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576844.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

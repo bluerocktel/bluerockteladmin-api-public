@@ -1,0 +1,28 @@
+_id: req_91623bb04216453782e69df7f8558a2c
+type: Request
+parentId: fld_e7869494e8304c7185e59bf940a079e0
+modified: 1683648830888
+created: 1683648830888
+url: "{{ _.base_url }}v1/recruitment/candidate-details/1526"
+name: v1/recruitment/candidate-details/{id}
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_79b87ca86b61419f931572ff3d1cfc28
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

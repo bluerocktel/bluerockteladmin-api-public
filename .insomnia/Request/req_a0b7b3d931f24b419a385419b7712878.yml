@@ -1,0 +1,41 @@
+_id: req_a0b7b3d931f24b419a385419b7712878
+type: Request
+parentId: fld_0270fc255bef497aa0f83af6565cd53c
+modified: 1683648831878
+created: 1683648831878
+url: "{{ _.base_url }}v1/customer-services"
+name: v1/customer-services
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_25a033c9ab1f45428cde79035d94b791
+    name: page
+    value: "1"
+    description: ""
+  - id: pair_41260da3b19641769db1340f5e64141b
+    name: per_page
+    value: "20"
+    description: ""
+    disabled: true
+  - id: pair_947f6bf84e464cb58f578e182d37fe18
+    name: filter[name]
+    value: expert
+    description: ""
+    disabled: true
+headers:
+  - id: pair_2263ffd97b63447a887c3c8277d67a9a
+    name: accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1646672576809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

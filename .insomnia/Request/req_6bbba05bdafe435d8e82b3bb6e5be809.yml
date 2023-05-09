@@ -1,0 +1,24 @@
+_id: req_6bbba05bdafe435d8e82b3bb6e5be809
+type: Request
+parentId: fld_c0df002f4404465883407c71dcb851ab
+modified: 1683648830823
+created: 1683648830823
+url: "{{ _.base_url }}v1/recruitment/recruitment-filters"
+name: v1/recruitment/recruitment-filters
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: -1646672576940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
